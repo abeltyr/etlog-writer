@@ -1,0 +1,751 @@
+{
+    "article": {
+        "id": "ethiopian-taxation-system",
+        "image": "https://etlog.s3.amazonaws.com/articles/6/main.webp",
+        "smallerImage": "https://etlog.s3.amazonaws.com/articles/6/comp.webp",
+        "date": "2023/07/01",
+        "title": "Ethiopian Taxation system",
+        "detail": [
+            {
+                "type": "P",
+                "class": "",
+                "data": "The Ethiopian Taxation system has two major categories: direct and indirect taxes. All tax types in the Ethiopian tax system are described and explained as follows."
+            },
+            {
+                "type": "H1T",
+                "class": "",
+                "data": "Direct Taxes"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "These are one type of taxes a company or individual pays directly to the government. The following are the tax categories under the income tax proclamation No. 979/2016. Tax payers are categorized according to their income levels."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Category A taxpayers"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "A body or any other person having annual gross income of ETB 1,000,000 or"
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Category B taxpayer"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "A person, other than a body, having an annual gross income of ETB 500,000 or more, but less than ETB 1,000,000."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Category C taxpayer"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "A person, other than a body, having an annual gross income of less than ETB 500,000."
+            },
+            {
+                "type": "Large",
+                "class": "pt-4",
+                "data": "The proclamation provides for the taxation of income in accordance with the following schedules:"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Schedule A, income from employment"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Schedule B, income from rental of buildings"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Schedule C, income from business"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Schedule D, other income"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Schedule E, exempt"
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Schedule A employment Income Tax"
+            },
+            {
+                "type": "Table",
+                "class": "",
+                "data": null,
+                "table": {
+                    "tableThread": [
+                        "Employment income per month (I) (birr)",
+                        "Employment income tax rate",
+                        "Deduction",
+                        "Tax computation I = Employment income  EIT = Employment income tax"
+                    ],
+                    "tableBody": [
+                        [
+                            "0–600",
+                            "0%",
+                            "0",
+                            "0"
+                        ],
+                        [
+                            "601–1650",
+                            "10%",
+                            "60.00",
+                            "EIT = I x 10% – 60"
+                        ],
+                        [
+                            "1651–3200",
+                            "15%",
+                            "142.50",
+                            "EIT = I x 15% – 142.50"
+                        ],
+                        [
+                            "3201–5250",
+                            "20%",
+                            "302.50",
+                            "EIT = I x 20% – 302.50"
+                        ],
+                        [
+                            "5251–7800",
+                            "25%",
+                            "565.00",
+                            "EIT = I x 25% – 565.00"
+                        ],
+                        [
+                            "7801–10900",
+                            "30%",
+                            "955.00",
+                            "EIT = I x 30% – 955.00"
+                        ],
+                        [
+                            "More than 10900",
+                            "35%",
+                            "1500.00",
+                            "EIT = I x 35% – 1500.00"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Schedule B Rental Income Tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Corporations are taxed 30% flat rate."
+            },
+            {
+                "type": "Table",
+                "class": "",
+                "data": null,
+                "table": {
+                    "tableThread": [
+                        "Rental income per year (I)",
+                        "Rental Income tax rate",
+                        "Deduction",
+                        "Tax computation I = Rental income RIT = Rental income tax"
+                    ],
+                    "tableBody": [
+                        [
+                            "0–7,200",
+                            "0%",
+                            "0",
+                            "0"
+                        ],
+                        [
+                            "7,201–19,800",
+                            "10%",
+                            "720.00",
+                            "EIT = I x 10% – 720.00"
+                        ],
+                        [
+                            "19,801–38,400",
+                            "15%",
+                            "1,710.00",
+                            "EIT = I x 15% – 1,710.00"
+                        ],
+                        [
+                            "38,401–63,000",
+                            "20%",
+                            "3,630.00",
+                            "EIT = I x 20% – 3,630.00"
+                        ],
+                        [
+                            "63,001–93,600",
+                            "25%",
+                            "6,780.00",
+                            "EIT = I x 25% – 6,780.00"
+                        ],
+                        [
+                            "93,601–130,800",
+                            "30%",
+                            "11,460.00",
+                            "EIT = I x 30% – 11,460.00"
+                        ],
+                        [
+                            "More than 130,800",
+                            "35%",
+                            "18,000",
+                            "EIT = I x 35% – 18,000"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "A taxpayer’s taxable rental income for a tax year is the gross amount of income that a taxpayer derives from rental of a building reduced by the total amount of deductions allowed."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Schedule C Income Tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Business income tax shall be imposed on a person who has taxable income for the year and is conducting a business."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Business income tax rates"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The business income tax rate applicable to a body is 30%."
+            },
+            {
+                "type": "Table",
+                "class": "",
+                "data": null,
+                "table": {
+                    "tableThread": [
+                        "Business income per year (I)",
+                        "Business income tax rate",
+                        "Deduction",
+                        "Tax computation I = Business income BIT = Business income tax"
+                    ],
+                    "tableBody": [
+                        [
+                            "0–7,200",
+                            "0%",
+                            "0",
+                            "0"
+                        ],
+                        [
+                            "7,201–19,800",
+                            "10%",
+                            "720.00",
+                            "EIT = I x 10% – 720.00"
+                        ],
+                        [
+                            "19,801–38,400",
+                            "15%",
+                            "1,710.00",
+                            "EIT = I x 15% – 1,710.00"
+                        ],
+                        [
+                            "38,401–63,000",
+                            "20%",
+                            "3,630.00",
+                            "EIT = I x 20% – 3,630.00"
+                        ],
+                        [
+                            "63,001–93,600",
+                            "25%",
+                            "6,780.00",
+                            "EIT = I x 25% – 6,780.00"
+                        ],
+                        [
+                            "93,601–130,800",
+                            "30%",
+                            "11,460.00",
+                            "EIT = I x 30% – 11,460.00"
+                        ],
+                        [
+                            "More than 130,800",
+                            "35%",
+                            "18,000",
+                            "EIT = I x 35% – 18,000"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The same business income tax rate applies to resident bodies and permanent establishments of non- resident bodies."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Schedule D tax rates"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "This is the last and residuary Schedule of income. Any income which is taxable under them Income Tax Proclamation but does not find place under any of the remaining three Schedules of income (i.e., Schedules A, B and C) will be taxable under this residuary."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Royalties"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Royalties Tax rate 5%"
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "What consists as a royalties: a payment of any kind received as a consideration for the use of ,or the right to use, any copyright of literary, artistic or scientific work, including cinematography films and films or tapes for radio or television broadcasting, any patent, trade work, design or model, plan secret formula or process, or for the use or for the right to use of any industrial, commercial or scientific equipment, or for information concerning industrial, commercial or scientific experience"
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Income from Rendering of Technical Services"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Income from Rendering of Technical Services Tax rate 10%"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The term “technical service” means any kind of expert advice or technological service rendered."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Income from Games of Chance"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Income from Games of Chance Tax rate 15%"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Definition: Every person deriving income from winning at games of chance (for example, lotteries, tom bolas, and other similar activities) shall be subject to this tax"
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Dividends"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Dividends Tax rate 10%"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Definition: Every person deriving income from dividends from a share company or withdrawals of profits from a private limited company shall be subject to this tax"
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Income from Rental of Property"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Income from Rental of Property Tax rate 15%"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Definition: Every person deriving income from the casual rental of property (including any land, building, or moveable asset) not related to a business activity taxable under Schedule B shall pay tax on the annual gross income."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Interest Income on Deposits"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Interest Income on Deposits Tax rate 5%"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Definition: every person deriving income from interest on deposits shall pay tax"
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Schedule E exempt"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "This schedule contains income items that are exempted from taxation. Following is a list that includes some of the exempted income items under Schedule E"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Pension contribution, provident fund and all forms of retirement benefit contributed by the employers in an amount that does not exceed 15% of the employee’s monthly salary;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Payments made to a person as compensation or gratitude in relation to personal injuries suffered by the person or the death of another person;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Amounts paid to employers to cover the actual cost of medical treatment of employees;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Allowance in lieu of means of transportation granted to employees under contract of employment to the extent of the amount to be determined by the tax Currently, transportation allowance is the lower of ETB 2,200 or 25% of the employee’s salary;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Hardship allowance;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Reimbursement of traveling expenses incurred on duty to the extent of the amount to be determined by the tax authority;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Traveling expenses paid to employees recruited from elsewhere than the place of employment;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Food and beverages provided for free to an employee by an employer conducting a mining, manufacturing or agricultural business;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Maintenance or child support"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Salary paid to domestic servants;"
+            },
+            {
+                "type": "H1T",
+                "class": "",
+                "data": "Indirect Taxes"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The main types of indirect taxes are VAT, customs duty, excise, and turnover taxes."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "VAT"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "A person who carries out a taxable activity is required to file an application for VAT registration if the total value of taxable transactions, at the end of any 12 calendar months period, exceeds ETB 1 million or there are reasonable grounds to believe that the taxable transactions of the coming 12 months exceed the threshold."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Turnover tax (TOT)"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Turnover tax is an equalization tax imposed on persons not registered for value-added tax to allow them to fulfil their obligations and enhance fairness in commercial relations and complete the coverage of the tax system, among other objectives. This tax is, therefore, applicable to small taxpayers who do not meet the VAT registration threshold of turnover of ETB 1,000,000 per year."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Turnover tax rates"
+            },
+            {
+                "type": "small",
+                "class": "",
+                "data": "The turnover tax shall be:"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "2% on goods"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "For services rendered locally"
+            },
+            {
+                "type": "List",
+                "class": "ml-10",
+                "data": "2% on contractors, grain mills, tractors and combine"
+            },
+            {
+                "type": "List",
+                "class": "ml-10",
+                "data": "10% on others. "
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Excise tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Excise tax is imposed on selected goods that are:"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Luxury goods and basic goods that are in inelastic"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Hazardous to health and that are a cause of social"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Excise tax will be applicable on 19 groups of items and 378 goods. The tax rate ranges from 5% to 500%."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Excisable value in respect of goods produced locally, ex-factory selling price excluding VAT, cost of excise stamps and the cost of returnable containers."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The customs value of the goods plus the amount of customs duty payable (whether paid or not)."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Time of payment"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Excise tax on excisable goods shall be payable:"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "When imported at the time of clearing the goods from the customs area"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "When produced locally, not later than 30 days from the date of"
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Relief for raw materials"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The excise tax paid on the raw materials shall be offset against the excise tax payable on the finished goods except for tax paid on alcohol, tobacco, and sugar."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Customs duty"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Duty means a charge levied and collected on any imported and exported goods in accordance with the Customs Tariff Regulations and the International Convention on the Harmonized Commodity Description and Coding System:"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Regular customs tariff ranges from 10%–35% depending on nature of"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Special customs tariff applicable to goods produced in and imported from the Common Market for Eastern and Southern Africa (COMESA) member countries is 10% less; i.e. 4.5% to 31.5%."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Other taxes like VAT and excise tax are levied on imports at the same rate as domestic"
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Sur tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "It is an additional 10% tax that is applicable on imported goods except for fertilizers, petroleum and lubricants, motor vehicles for freight, passengers and special purpose motor vehicles, aircraft, spacecraft, and parts thereof, and capital (investment) goods. The Ministry of Finance is authorized to increase or decrease the list of goods exempt from sur tax."
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Pension contribution"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "It is applicable to private organizations’ employees who are salaried persons employed in a private organization for not less than 45 days for a definite or indefinite period or a piece of work, including managerial employees. However, it does not include employees engaged in cotton collection, sugar cane cutting, and such other similar works regularly repeated in the year. The term “private organization” means an organization established to engage in commerce, industry, agriculture, construction, social service or in any other lawful activity and that has salaried employees and includes charities and associations."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The contributions payable to the Private Organizations Pension Fund shall, based on the employee’s salary, be:"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Special customs tariff applicable to goods produced in and imported from the Common Market for Eastern and Southern Africa (COMESA) member countries is 10% less; i.e. 4.5% to 31.5%."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "By the employer, 11%"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "By the employee, 7%"
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Withholding Tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "All bodies and specified sole proprietor businesses are required to deduct withholding tax on domestic transactions at a rate of 2% of the value of the transaction and remit to the tax authority monthly. The threshold subject to withholding tax is ETB 3,000 for purchase of services and ETB 10,000 for purchase of goods. The withholding tax rate on suppliers that fail to provide a TIN and valid trade license is 30%. The amount of tax withheld is deductible from the tax payable by the supplier at the end of the year. The tax authority refunds excess with holding tax, paid over and above the tax payable for the year, to the supplier."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Stamp Duty"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Twelve types of documents are chargeable with stamp duty at varying rates based on the nature of the documents. No instrument chargeable shall be admitted in evidence for any purpose by any person unless such instrument is stamped."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Capital Gains Tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Capital Gains Tax: Applied to the gains derived from the sale of assets, such as real estate or securities."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Environmental Tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Imposed on activities that contribute to environmental pollution or degradation."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Vehicle Tax"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Motor Vehicle License Fee: Levied on motor vehicle owners."
+            },
+            {
+                "type": "BQ",
+                "class": "",
+                "data": "It's important to note that tax rates, thresholds, and regulations may change over time, so individuals and businesses in Ethiopia should stay updated on any amendments to the tax laws. Consulting with a tax professional or contacting the Ethiopian Revenue and Customs Authority (ERCA) can provide the most accurate and up-to-date information regarding taxes in Ethiopia."
+            }
+        ],
+        "description": "The Ethiopian Taxation system has two major categories: direct and indirect taxes. All tax types in the Ethiopian tax system are described and explained as follows.",
+        "time": 4,
+        "labels": [
+            "Taxation"
+        ],
+        "keywords": [
+            "Taxation",
+            "Ethiopia Taxation",
+            "Ethiopia Taxation definition",
+            "Ethiopia Taxation Cuts",
+            "Ethiopia Taxation Types",
+            "Ethiopia Tax Cuts"
+        ]
+    },
+    "advertisement": false
+}

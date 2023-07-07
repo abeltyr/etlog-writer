@@ -1,0 +1,895 @@
+{
+    "article": {
+        "id": "2021-2022-Ethio-Telecom-service-users-report",
+        "image": "https://etlog.s3.amazonaws.com/articles/11/main.webp",
+        "smallerImage": "https://etlog.s3.amazonaws.com/articles/11/comp.webp",
+        "title": "2021/2022 Ethio Telecom service users report",
+        "date": "2023/07/04",
+        "detail": [
+            {
+                "type": "P",
+                "class": "",
+                "data": "Ethiopia's telecommunications landscape has witnessed a remarkable shift, marked by impressive numbers. Ethio Telecom, the once state-owned monopoly, has seen its subscriber base soar by 18.4% to reach a staggering 66.6 million users in 2021/22. Mobile voice subscribers dominate, accounting for 96.9% of all users, while internet and data services experienced a growth rate of 19.6%. This surge in demand has translated into impressive financial performance, with Ethio Telecom's income surging by 11.5% to Birr 62.2 billion. Despite rising expenses, the company achieved a substantial gross profit of Birr 30.3 billion in 2021/22."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Out of all the subscribers, the majority, which is about 64.5 million people, used mobile phones for voice calls. That's a huge number, accounting for 96.9 percent of all subscribers. About 1.2 million people used Ethio Telecom for internet and data services, making up 1.8 percent of the total. The remaining 885 thousand people, which is 1.3 percent, used Ethio Telecom for fixed voice services, which means they had a landline phone."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "2020/21 and 2021/22 subscriber and user base (in 000')"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Internet and data subscriber: Number in (in 000')",
+                                "backgroundColor": "#e0e1dd",
+                                "data": [
+                                    1005,
+                                    1202
+                                ]
+                            },
+                            {
+                                "label": "Fixed voice service subscriber: Number in (in 000')",
+                                "backgroundColor": "#b8c0ff",
+                                "data": [
+                                    912,
+                                    885
+                                ]
+                            },
+                            {
+                                "label": "Internet and data user: Number in (in 000')",
+                                "backgroundColor": "#4a4e69",
+                                "data": [
+                                    24923,
+                                    26080
+                                ]
+                            },
+                            {
+                                "label": "Mobile voice subscriber: Number in (in 000')",
+                                "backgroundColor": "#bde0fe",
+                                "data": [
+                                    54329,
+                                    64506
+                                ]
+                            },
+                            {
+                                "label": "Total subscriber base",
+                                "backgroundColor": "#dda15e",
+                                "data": [
+                                    56246,
+                                    66593
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Growth Percentage of 2020/21-2021/22"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Percentage Change 2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Mobile voice subscriber: Growth Percentage",
+                                "backgroundColor": "#a8dadc",
+                                "data": [
+                                    18.7
+                                ]
+                            },
+                            {
+                                "label": "Internet and data subscriber: Growth Percentage",
+                                "backgroundColor": "#fff3b0",
+                                "data": [
+                                    19.6
+                                ]
+                            },
+                            {
+                                "label": "Fixed voice service subscriber: Growth Percentage",
+                                "backgroundColor": "#f8edeb",
+                                "data": [
+                                    -3.0
+                                ]
+                            },
+                            {
+                                "label": "Internet and data user: Growth Percentage",
+                                "backgroundColor": "#778da9",
+                                "data": [
+                                    4.6
+                                ]
+                            },
+                            {
+                                "label": "Total subscriber base: Growth Percentage",
+                                "backgroundColor": "#c7f9cc",
+                                "data": [
+                                    18.4
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Mobile Voice"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The number of mobile voice subscribers increased from 54,329 in 2020/21 to 64,506 in 2021/22, representing a growth of 18.7%. This indicates that more people are using mobile phones for voice communication."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Residential"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of residential subscribers increased from 53,667 in 2020/21 to 63,604 in 2021/22, showing a growth rate of 18.5%. This suggests that more households are availing telecommunication services, potentially for voice calls and internet connectivity."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Enterprises"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of enterprise subscribers increased from 662 in 2020/21 to 902 in 2021/22, demonstrating a significant growth rate of 36.3%. This signifies an increased adoption of telecommunication services by businesses, possibly for communication and data connectivity purposes."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, the data indicates a positive trend in the number of subscribers across different service types, suggesting a growing demand for telecommunications services, both among individuals and businesses."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Number of mobile voice subscriber (in 000')"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Number in (in 000')",
+                                "backgroundColor": "#C49C6E",
+                                "data": [
+                                    53667,
+                                    63604
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Number in (in 000')",
+                                "backgroundColor": "#219ebc",
+                                "data": [
+                                    662,
+                                    902
+                                ]
+                            },
+                            {
+                                "label": "Total Mobile voice: Number in (in 000')",
+                                "backgroundColor": "#80ed99",
+                                "data": [
+                                    54329,
+                                    64506
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Mobile Voice Growth Percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Percentage Change 2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Growth Percentage",
+                                "backgroundColor": "#C49C6E",
+                                "data": [
+                                    18.5
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Growth Percentage",
+                                "backgroundColor": "#219ebc",
+                                "data": [
+                                    36.3
+                                ]
+                            },
+                            {
+                                "label": "Total Mobile voice: Growth Percentage",
+                                "backgroundColor": "#80ed99",
+                                "data": [
+                                    18.7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Fixed Voice"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Fixed Voice refers to a type of telecommunication service that enables voice communication over a wired connection, typically through landline phones or other fixed devices. It is commonly used for making phone calls within a specific geographic area. The number of subscribers for fixed voice services increased from 367 in 2020/21 to 885 in 2021/22, indicating a significant growth of 141.1%. This suggests that more individuals or businesses have adopted fixed voice services for their communication needs."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Residential"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Specifically, for residential subscribers, the data indicates a decrease from 540 subscribers in 2020/21 to 512 subscribers in 2021/22, resulting in a decline of -5.2%. This suggests a slight decrease in the number of households using fixed voice services for their home phone communication."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Enterprises"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "On the other hand, the number of enterprise subscribers for fixed voice services remained relatively stable, with a small increase from 372 in 2020/21 to 373 in 2021/22, representing a growth of 0.3%. This suggests that the number of businesses or organizations using fixed voice services remained relatively unchanged."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, the data indicates a mixed trend in fixed voice services, with a significant overall increase in subscribers, but a slight decline in the residential segment. This could be attributed to the growing popularity of mobile voice services, Voice over Internet Protocol (VoIP), and other alternative communication options."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Number of fixed voice subscriber (in 000')"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Number in (in 000')",
+                                "backgroundColor": "#80ed99",
+                                "data": [
+                                    540,
+                                    512
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Number in (in 000')",
+                                "backgroundColor": "#eae2b7",
+                                "data": [
+                                    372,
+                                    373
+                                ]
+                            },
+                            {
+                                "label": "Fixed voice: Number in (in 000')",
+                                "backgroundColor": "#4895ef",
+                                "data": [
+                                    367,
+                                    885
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Fixed Voice Growth Percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Percentage Change 2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Growth Percentage",
+                                "backgroundColor": "#c9ada7",
+                                "data": [
+                                    -5.2
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Growth Percentage",
+                                "backgroundColor": "#8ecae6",
+                                "data": [
+                                    0.3
+                                ]
+                            },
+                            {
+                                "label": "Fixed voice: Growth Percentage",
+                                "backgroundColor": "#eae2b7",
+                                "data": [
+                                    141.1
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Broadband & Internet Subscriber"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The number of subscribers for broadband and internet services increased from 637 in 2020/21 to 845 in 2021/22, representing a significant growth of 32.7%. This indicates a substantial increase in the adoption of broadband and internet services among users."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Residential"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of residential subscribers for broadband and internet services increased from 453 in 2020/21 to 616 in 2021/22, showing a growth rate of 36.0%. This suggests that more households are opting for broadband connections, likely for faster internet speeds and enhanced online experiences."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Enterprises"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of enterprise subscribers for broadband and internet services increased from 184 in 2020/21 to 229 in 2021/22, indicating a growth rate of 24.5%. This suggests an increased adoption of broadband connectivity among businesses, potentially for improved communication, collaboration, and access to online resources."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, the data indicates a significant growth in broadband and internet subscribers, both in residential and enterprise categories. This reflects a growing demand for faster and more reliable internet connections, driven by the increasing reliance on online services, remote work, and digital transformation efforts."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Number of Broadband & Internet Subscriber (in 000')"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Number in (in 000')",
+                                "backgroundColor": "#c9ada7",
+                                "data": [
+                                    453,
+                                    616
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Number in (in 000')",
+                                "backgroundColor": "#8ecae6",
+                                "data": [
+                                    184,
+                                    229
+                                ]
+                            },
+                            {
+                                "label": "Broadband & Internet Subscriber: Number in (in 000')",
+                                "backgroundColor": "#eae2b7",
+                                "data": [
+                                    637,
+                                    845
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Broadband & Internet Subscriber Growth Percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Percentage Change 2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Growth Percentage",
+                                "backgroundColor": "#80ed99",
+                                "data": [
+                                    36.0
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Growth Percentage",
+                                "backgroundColor": "#eae2b7",
+                                "data": [
+                                    24.5
+                                ]
+                            },
+                            {
+                                "label": "Broadband & Internet Subscriber: Growth Percentage",
+                                "backgroundColor": "#4895ef",
+                                "data": [
+                                    32.7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Broadband Data & Internet User"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The number of broadband data and internet users increased from 24,554 in 2020/21 to 25,722 in 2021/22, indicating a growth rate of 4.8%. This suggests a gradual increase in the number of individuals using broadband data and internet services."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Residential"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of residential broadband data users increased from 24,234 in 2020/21 to 25,159 in 2021/22, showing a growth rate of 3.8%. This suggests a steady increase in the number of households utilizing broadband data services, likely for internet connectivity at home."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Enterprises"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of enterprise broadband data users increased from 319 in 2020/21 to 563 in 2021/22, demonstrating a significant growth rate of 76.5%. This indicates a substantial increase in the adoption of broadband data services among businesses and organizations, potentially for improved communication, data transfer, and online operations."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, the data highlights a positive trend in the number of broadband data and internet users, both in residential and enterprise segments. This reflects a growing reliance on broadband services for internet access and data connectivity, driven by the increasing need for online activities, remote work, and digital communication."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Number of Broadband Data & Internet User (in 000')"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Broadband Data Residential: Number in (in 000')",
+                                "backgroundColor": "#a8dadc",
+                                "data": [
+                                    24234,
+                                    25159
+                                ]
+                            },
+                            {
+                                "label": "Broadband Data Enterprise: Number in (in 000')",
+                                "backgroundColor": "#8ecae6",
+                                "data": [
+                                    319,
+                                    563
+                                ]
+                            },
+                            {
+                                "label": "Broadband Data & Internet User: Number in (in 000')",
+                                "backgroundColor": "#eae2b7",
+                                "data": [
+                                    24554,
+                                    25722
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Broadband Data & Internet User Growth Percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Percentage Change 2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Broadband Data Residential: Growth Percentage",
+                                "backgroundColor": "#219ebc",
+                                "data": [
+                                    3.8
+                                ]
+                            },
+                            {
+                                "label": "Broadband Data Enterprise: Growth Percentage",
+                                "backgroundColor": "#8d99ae",
+                                "data": [
+                                    76.5
+                                ]
+                            },
+                            {
+                                "label": "Broadband Data & Internet User: Growth Percentage",
+                                "backgroundColor": "#80ed99",
+                                "data": [
+                                    4.8
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Narrow Band Data & Internet Subscriber"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Narrow Band Data refers to a type of data transmission that operates at a low bandwidth, typically providing slower internet speeds compared to broadband connections. It is commonly used for applications that require lower data rates, such as simple text messaging, basic email services, or remote monitoring systems. The number of Narrow Band Data & Internet subscribers decreased from 367 in 2020/21 to 357 in 2021/22, showing a decline of 2.7%. This suggests a slight decrease in the number of subscribers using narrow band data and internet services."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Residential"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of residential subscribers for Narrow Band Data & Internet decreased from 1 in 2020/21 to 0 in 2021/22, resulting in a significant decline of 60.0%. This indicates a decrease in the number of households utilizing narrow band data and internet services."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Enterprises"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of enterprise subscribers for Narrow Band Data & Internet decreased from 366 in 2020/21 to 357 in 2021/22, showing a decline of 2.5%. This suggests a decrease in the number of businesses or organizations using narrow band data and internet services."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, the data indicates a decrease in the number of subscribers for Narrow Band Data & Internet services, both among residential and enterprise users. This could indicate a shift towards other types of internet services or a decrease in the demand for narrow band data connectivity."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Number of Narrow Band Data & Internet Subscriber (in 000')"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Number in (in 000')",
+                                "backgroundColor": "#e9d8a6",
+                                "data": [
+                                    1,
+                                    0
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Number in (in 000')",
+                                "backgroundColor": "#f0ead2",
+                                "data": [
+                                    366,
+                                    357
+                                ]
+                            },
+                            {
+                                "label": "Narrow band Data & Internet Subscriber: Number in (in 000')",
+                                "backgroundColor": "#e8c2ca",
+                                "data": [
+                                    367,
+                                    357
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Narrow Band Data & Internet Subscriber Growth Percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Percentage Change 2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Residential: Growth Percentage",
+                                "backgroundColor": "#fbc4ab",
+                                "data": [
+                                    -60.0
+                                ]
+                            },
+                            {
+                                "label": "Enterprises: Growth Percentage",
+                                "backgroundColor": "#52b69a",
+                                "data": [
+                                    -2.5
+                                ]
+                            },
+                            {
+                                "label": "Narrow band Data & Internet Subscriber: Growth Percentage",
+                                "backgroundColor": "#ebf2fa",
+                                "data": [
+                                    -2.7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Narrow Band Data & Internet User"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The number of narrow band data and internet users decreased from 369 in 2020/21 to 358 in 2021/22, indicating a decline of -3.0%. This suggests a slight reduction in the number of individuals using narrow band data and internet services."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Residential"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of residential narrow band users remained unchanged at 1 in both 2020/21 and 2021/22. This indicates a stable number of households utilizing narrow band data services, albeit at a very low level."
+            },
+            {
+                "type": "H3T",
+                "class": "",
+                "data": "Enterprises"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "The number of enterprise narrow band users decreased from 368 in 2020/21 to 357 in 2021/22, showing a decline of -3.0%. This suggests a slight decrease in the adoption of narrow band data services among businesses and organizations."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, the data reflects a relatively stagnant or declining trend in the number of narrow band data and internet users, both in the residential and enterprise segments. It's worth noting that narrow band data services typically offer lower speeds and less capacity compared to broadband services, and therefore may be less popular in today's fast-paced digital environment."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Number of Narrow Band Data & Internet User (in 000')"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Narrow band Residential: Number in (in 000')",
+                                "backgroundColor": "#ece4db",
+                                "data": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "label": "Narrow band Enterprise: Number in (in 000')",
+                                "backgroundColor": "#cbf3f0",
+                                "data": [
+                                    368,
+                                    357
+                                ]
+                            },
+                            {
+                                "label": "Narrow band Data & Internet User: Number in (in 000')",
+                                "backgroundColor": "#52b69a",
+                                "data": [
+                                    369,
+                                    358
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Narrow Band Data & Internet User Growth Percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Percentage Change 2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Narrow band Residential: Growth Percentage",
+                                "backgroundColor": "#427aa1",
+                                "data": [
+                                    0.0
+                                ]
+                            },
+                            {
+                                "label": "Narrow band Enterprise: Growth Percentage",
+                                "backgroundColor": "#02c39a",
+                                "data": [
+                                    -3.0
+                                ]
+                            },
+                            {
+                                "label": "Narrow band Data & Internet User: Growth Percentage",
+                                "backgroundColor": "#f0f3bd",
+                                "data": [
+                                    -3.0
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "description": "Ethiopia's telecommunications landscape has witnessed a remarkable shift, marked by impressive numbers. Ethio Telecom, the once state-owned monopoly, has seen its subscriber base soar by 18.4% to reach a staggering 66.6 million users in 2021/22. Mobile voice subscribers dominate, accounting for 96.9% of all users, while internet and data services experienced a growth rate of 19.6%. This surge in demand has translated into impressive financial performance, with Ethio Telecom's income surging by 11.5% to Birr 62.2 billion. Despite rising expenses, the company achieved a substantial gross profit of Birr 30.3 billion in 2021/22.",
+        "time": 4,
+        "labels": [
+            "Telecom"
+        ],
+        "keywords": [
+            "Telecommunication",
+            "Ethiopia Telecommunication",
+            "Ethiopia Telecommunication number of users 2021/2022",
+            "Ethiopia Telecommunication service users for 2021/2022",
+            "Ethiopia Telecommunication service growth for 2021/2022",
+            "Ethiopia Telecom number of users 2021/2022",
+            "Ethiopia Telecom service users for 2021/2022",
+            "Ethiopia Telecom service growth for 2021/2022"
+        ]
+    },
+    "advertisement": false
+}

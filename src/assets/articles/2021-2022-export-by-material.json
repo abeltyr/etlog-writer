@@ -1,0 +1,1957 @@
+{
+    "article": {
+        "id": "2021-2022-export-by-material",
+        "image": "https://etlog.s3.amazonaws.com/articles/3/main.webp",
+        "smallerImage": "https://etlog.s3.amazonaws.com/articles/3/comp.webp",
+        "title": "Analysis of Ethiopian 2021/2022 export martial and earning",
+        "date": "2023/06/29",
+        "detail": [
+            {
+                "type": "P",
+                "class": "",
+                "data": "The total merchandise export earnings for the fiscal year 2021/22 have reached 4.1 billion USD, indicating a 14.04 percent increase compared to the previous year (2020/2021), which recorded export earnings of 3.59 billion USD. It is important to note that the growth rate for the current year has declined in comparison to the previous year's growth rate of 20.38 percent."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Overall Export"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The total merchandise export earnings for the fiscal year 2021/22 have reached 4.1 billion USD, indicating a 14.04 percent increase compared to the previous year (2020/2021), which recorded export earnings of 3.59 billion USD. It is important to note that the growth rate for the current year has declined in comparison to the previous year's growth rate of 20.38 percent."
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Billion USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    2.9877,
+                                    3.5966,
+                                    4.1015
+                                ]
+                            },
+                            {
+                                "label": "Growth Rate",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    20.38,
+                                    14.04
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Major Exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The major contributors to the export earnings encompass coffee, oilseeds, leather and leather products, pulses, meat and meat products, fruits and vegetables, textile and textile products, live animals, chat, gold, flowers, and electricity. Those take up 95.6% of the total export earning."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "Coffee",
+                            "Oilseeds",
+                            "Leather and Leather Products",
+                            "Pulses",
+                            "Meat & Meat Products",
+                            "Fruits & Vegetables",
+                            "Textile & Textile Prod",
+                            "Live Animals",
+                            "Chat",
+                            "Gold",
+                            "Flower",
+                            "Electricity",
+                            "others"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#8F7B5C",
+                                    "#9AAC93",
+                                    "#667075",
+                                    "#C49C6E",
+                                    "#80ed99",
+                                    "#CDE7B0",
+                                    "#9AAC93",
+                                    "#667075",
+                                    "#957569",
+                                    "#667075",
+                                    "#957569",
+                                    "#667075",
+                                    "#011308",
+                                    "#384D41",
+                                    "#DDF8EB",
+                                    "#8EBDA7"
+                                ],
+                                "data": [
+                                    1430.7,
+                                    265.7,
+                                    33.2,
+                                    218.9,
+                                    109.6,
+                                    87.8,
+                                    175.6,
+                                    29.2,
+                                    391.6,
+                                    546.4,
+                                    541.6,
+                                    93.5,
+                                    177.7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Coffee exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Coffee exports exhibited exceptional performance with a staggering 57.3 percent growth, driven by both an increase in international prices (29.0 percent) and export volume (22.0 percent). The share of coffee in total merchandise export increased to 34.9 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of coffee exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    271.11,
+                                    248.65,
+                                    303.24
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -8.2,
+                                    21.9
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of coffee export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    3.16,
+                                    3.66,
+                                    4.72
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    15.82,
+                                    28.96
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of coffee export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    855.9,
+                                    909.4,
+                                    1430.7
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    6.25,
+                                    57.32
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Flower exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Flower exports experienced a 15.08 percent growth, attributed to an increase in both export volume (12.47 percent) and international price (2.37 percent). The share of flower in total export earnings slightly rose to 13.2 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of flower exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    94.39,
+                                    101.58,
+                                    114.25
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    7.617,
+                                    12.473
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of flower export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    4.47,
+                                    4.63,
+                                    4.74
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    3.579,
+                                    2.375
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of flower export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    422.3,
+                                    470.6,
+                                    541.6
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    11.43,
+                                    15.08
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Fruit and vegetable exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Fruit and vegetable exports displayed a notable 26.69 percent annual growth due to an increase in international price (25.8 percent) despite a marginal rise in export volume (0.43 percent). The share of fruits and vegetables in total merchandise export reached 2.1 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of fruit and vegetable exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    191.18,
+                                    221.70,
+                                    222.65
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    15.964,
+                                    0.429
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of fruit and vegetable export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    0.31,
+                                    0.31,
+                                    0.39
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    0,
+                                    25.806
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of fruit and vegetable export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    58.8,
+                                    69.3,
+                                    87.8
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    17.857,
+                                    26.696
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Meat and meat product exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Meat and meat product exports surged by 45.5 percent, driven by a significant rise in export volume (29.94 percent) and international price (12.04 percent). The share of meat and meat products in total merchandise export earnings stood at 2.7 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of meat and meat product exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    12.82,
+                                    14.63,
+                                    19.01
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    14.119,
+                                    29.938
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of meat and meat product export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    5.26,
+                                    5.15,
+                                    5.77
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -2.091,
+                                    12.039
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of meat and meat product export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    67.4,
+                                    75.3,
+                                    109.6
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    11.721,
+                                    45.551
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Textile and textile product exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Textile and textile product exports increased by 19.38 percent, primarily due to a growth in export volume (46.49 percent) despite a decline in international price (18.63 percent). The share of textile and textile products in total merchandise export slightly increased to 4.3 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of textile and textile product exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    22.80,
+                                    24.05,
+                                    35.23
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    5.48,
+                                    46.486
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of textile and textile product export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    7.41,
+                                    6.12,
+                                    4.98
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -17.409,
+                                    -18.627
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of textile and textile product export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    168.9,
+                                    147.1,
+                                    175.6
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -12.907,
+                                    19.375
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Electricity exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Electricity exports saw a modest 3.3 percent increase, attributed to a rise in export volume (1.7 percent). However, the share of electricity in total merchandise export decreased to 2.3 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of electricity exports In mn of kwh"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    1145.25,
+                                    1637.22,
+                                    1665.17
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    42.957,
+                                    1.707
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of electricity export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    0.06,
+                                    0.06,
+                                    0.06
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of electricity export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    66.4,
+                                    90.5,
+                                    93.5
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    36.295,
+                                    3.315
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Gold exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Gold exports declined by 16.15 percent due to a decrease in volume of 5.5 percent and international price of 11.2 percent. The share of gold in total merchandise export decreased to 13.3 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of gold exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    3.32,
+                                    9.19,
+                                    8.68
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    176.807,
+                                    -5.549
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of gold export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    59.12,
+                                    70.93,
+                                    62.95
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    19.976,
+                                    -11.25
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of gold export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    196.5,
+                                    651.6,
+                                    546.4
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    231.603,
+                                    -16.145
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Chat exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Chat exports decreased by 2.7 percent, influenced by a decline in export volume (20.9 percent) despite an increase in international price (23.0 percent). The share of chat in total merchandise export earnings dropped to 9.5 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of chat exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    57.14,
+                                    71.21,
+                                    56.33
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    24.624,
+                                    -20.896
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of chat export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    5.68,
+                                    5.65,
+                                    6.95
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -0.528,
+                                    23.009
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of chat export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    324.4,
+                                    402.5,
+                                    391.6
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    24.075,
+                                    -2.708
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Leather and leather products exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Leather and leather products exports declined by 9.041 percent, attributed to decreases in both export volume (2.18 percent) and international price (6.97 percent). Their share in total merchandise export stood at 0.8 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of Leather and leather products exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    3.55,
+                                    2.29,
+                                    2.24
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -35.493,
+                                    -2.183
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of Leather and leather products export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    20.28,
+                                    15.92,
+                                    14.81
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -21.499,
+                                    -6.972
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of Leather and leather products export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    72.0,
+                                    36.5,
+                                    33.2
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -49.306,
+                                    -9.041
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Live animal exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Live animal exports experienced a significant decrease of 34.97 percent due to a decline in export volume (34.24 percent) and a slight decrease in international price (1.17 percent). The share of live animals in total merchandise export earnings dropped to 0.7 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of live animal exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    29.40,
+                                    26.26,
+                                    17.27
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -10.680,
+                                    -34.235
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of live animal export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    1.84,
+                                    1.71,
+                                    1.69
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -7.065,
+                                    -1.170
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of live animal export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    54.1,
+                                    44.9,
+                                    29.2
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -17.006,
+                                    -34.967
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Oil Seeds exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Oilseeds exports showed a 20.8 percent annual decrease due to a significant fall in export volume (29.87 percent), despite an increase in international price (12.409 percent). The share of oilseeds in total merchandise export earnings reached 6.5 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of oil Seeds exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    236.50,
+                                    245.48,
+                                    172.14
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    3.797,
+                                    -29.876
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of oil Seeds export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    1.46,
+                                    1.37,
+                                    1.54
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -6.164,
+                                    12.409
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of oil Seeds export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    345.0,
+                                    335.5,
+                                    265.7
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -2.754,
+                                    -20.805
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Pulses exports"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Pulses exports decreased by 6.373 percent, primarily driven by a decline in export volume (23.78 percent) despite a rise in international price (22.89 percent). The share of pulses in total merchandise exports decreased to 5.3 percent."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The volume of pulses exports In millions of kg"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "millions of kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    354.0,
+                                    280.60,
+                                    213.87
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -20.735,
+                                    -23.781
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The Unit Value of pulses export In USD/kg "
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "USD per kg",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    0.66,
+                                    0.83,
+                                    1.02
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    25.758,
+                                    22.892
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of pulses export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    234.8,
+                                    233.8,
+                                    218.9
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    -0.426,
+                                    -6.373
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Other export "
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Other export items experienced a significant 37.2 percent increase, reaching USD 177.7 million usd."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "The values of other export in million usd"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Million USD",
+                                "backgroundColor": [
+                                    "#80ed99"
+                                ],
+                                "data": [
+                                    121.1,
+                                    129.5,
+                                    177.7
+                                ]
+                            },
+                            {
+                                "label": "Growth Percentage",
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#CAC996",
+                                    "#CAC996"
+                                ],
+                                "data": [
+                                    null,
+                                    6.936,
+                                    37.220
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Large",
+                "class": "pt-4 w-full flex justify-center underline ",
+                "data": "To View the export countries analysis check out the following article"
+            },
+            {
+                "type": "InnerLink",
+                "class": "",
+                "data": {
+                    "id": "2021-2022-export-by-countries"
+                }
+            },
+            {
+                "type": "Large",
+                "class": "pt-4 w-full flex justify-center underline ",
+                "data": "To View the import material and usd analysis check out the following article"
+            },
+            {
+                "type": "InnerLink",
+                "class": "",
+                "data": {
+                    "id": "2021-2022-import-by-material"
+                }
+            }
+        ],
+        "description": "The total merchandise export earnings for the fiscal year 2021/22 have reached 4.1 billion USD, indicating a 14.04 percent increase compared to the previous year (2020/2021), which recorded export earnings of 3.59 billion USD. It is important to note that the growth rate for the current year has declined in comparison to the previous year's growth rate of 20.38 percent.",
+        "time": 4,
+        "labels": [
+            "Export Report"
+        ],
+        "keywords": [
+            "Import report",
+            "Ethiopia Export data by Material",
+            "Ethiopia Export data by USD",
+            "Ethiopia Export 2021/2022 by Material",
+            "Ethiopia Export 2021/2022 by USD",
+            "Ethiopia Export"
+        ]
+    },
+    "advertisement": false
+}

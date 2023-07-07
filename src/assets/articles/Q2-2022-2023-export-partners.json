@@ -1,0 +1,329 @@
+{
+    "article": {
+        "id": "Q2-2022-2023-export-partners",
+        "image": "https://etlog.s3.amazonaws.com/articles/8/main.webp",
+        "smallerImage": "https://etlog.s3.amazonaws.com/articles/8/comp.webp",
+        "date": "2023/07/03",
+        "title": "Ethiopia's Import Exports in Q2 FY2022/23: Insights into Key Trading Partners",
+        "detail": [
+            {
+                "type": "P",
+                "class": "",
+                "data": "Ethiopia has established strong trade partnerships across continents, with significant contributions from Asia (36.8%), Europe (32.3%), Africa (19.2%), and the Americas (10.8%). This article explores the distribution of Ethiopia's exports to these regions, shedding light on the diverse trade dynamics that have propelled the country's export sector."
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Asia",
+                            "Europe",
+                            "Africa",
+                            "America",
+                            "Oceania"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Percentage",
+                                "backgroundColor": [
+                                    "#BE6E46"
+                                ],
+                                "data": [
+                                    36.8,
+                                    32.3,
+                                    19.2,
+                                    10.8,
+                                    0.9
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Asia"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Asia has remained the prominent export destination, contributing 36.8 percent to Ethiopia's total export revenue. Saudi Arabia took the lead in this region, capturing a 30.0 percent share. Other notable contributors included the United Arab Emirates (13.0 percent), Israel (8.7 percent), Japan (8.0 percent), South Korea (7.3 percent), India (6.7 percent), China (6.1 percent), Singapore (3.9 percent), Hong Kong (1.5 percent), Indonesia (1.5 percent), Taiwan (1.3 percent), Yemen (1.2 percent), Pakistan (0.9 percent), and Malaysia (0.9 percent). Collectively, these countries accounted for 91.0 percent of Ethiopia's total exports to Asia, showcasing the significance of the region in Ethiopia's export market."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "Saudi-Arabia",
+                            "U.A.E",
+                            "Israel",
+                            "Japan",
+                            "South Korea",
+                            "India",
+                            "China",
+                            "Singapore",
+                            "Hong Kong",
+                            "Indonesia",
+                            "Taiwan",
+                            "Yemen",
+                            "Pakistan",
+                            "Malaysia",
+                            "other"
+                        ],
+                        "datasets": [
+                            {
+                                "backgroundColor": [
+                                    "#59594A",
+                                    "#CAC996",
+                                    "#8F7B5C",
+                                    "#C49C6E",
+                                    "#BE6E46",
+                                    "#CDE7B0",
+                                    "#C49C6E",
+                                    "#BE6E46",
+                                    "#CDE7B0",
+                                    "#9AAC93",
+                                    "#957569",
+                                    "#667075",
+                                    "#011308",
+                                    "#894D41",
+                                    "#DDF8EB",
+                                    "#8EBDA7"
+                                ],
+                                "data": [
+                                    30.0,
+                                    13.0,
+                                    8.7,
+                                    8.0,
+                                    7.3,
+                                    6.7,
+                                    6.1,
+                                    3.9,
+                                    1.5,
+                                    1.5,
+                                    1.3,
+                                    1.2,
+                                    0.9,
+                                    0.9,
+                                    9.0
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Europe"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Europe constituted a notable share of Ethiopia's export revenue, contributing 32.3 percent to the total export receipts. Within Europe, the Netherlands emerged as the primary destination for Ethiopian exports, commanding a significant 33.9 percent share. Switzerland followed closely at 21.0 percent, while Germany (15.4 percent), Belgium (7.2 percent), the United Kingdom (7.0 percent), Italy (4.4 percent), France (2.4 percent), Turkey (2.3 percent), Russia (1.5 percent), and Norway (1.3 percent) also played pivotal roles. Together, these European countries collectively accounted for 96.4 percent of Ethiopia's total exports to Europe, underlining the region's importance as a trading hub."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "Netherlands",
+                            "Switzerland",
+                            "Germany",
+                            "Belgium",
+                            "United Kingdom",
+                            "Italy",
+                            "France",
+                            "Turkey",
+                            "Russia",
+                            "Norway",
+                            "others"
+                        ],
+                        "datasets": [
+                            {
+                                "backgroundColor": [
+                                    "#CAC996",
+                                    "#8F7B5C",
+                                    "#9AAC93",
+                                    "#667075",
+                                    "#957569",
+                                    "#667075",
+                                    "#011308",
+                                    "#384D41",
+                                    "#DDF8EB",
+                                    "#8EBDA7"
+                                ],
+                                "data": [
+                                    33.9,
+                                    21.0,
+                                    15.4,
+                                    7.2,
+                                    7.0,
+                                    4.4,
+                                    2.4,
+                                    2.3,
+                                    1.5,
+                                    1.3,
+                                    3.6
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Africa"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Africa remained a significant market for Ethiopian exports, contributing approximately 19.2 percent to the country's export earnings. Within Africa, several countries played vital roles in Ethiopia's export landscape. Djibouti held the largest share at 40.9 percent, followed by Somalia (27.4 percent), Sudan (17.2 percent), Kenya (5.8 percent), and South Africa (1.0 percent). Together, these nations constituted 92.3 percent of Ethiopia's total exports to Africa, highlighting the strength of regional trade connections."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "Djibouti",
+                            "Somalia",
+                            "Sudan",
+                            "Kenya",
+                            "South Africa",
+                            "others"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "B",
+                                "backgroundColor": [
+                                    "#221D23",
+                                    "#4F3824",
+                                    "#D1603D",
+                                    "#DDB967",
+                                    "#908E52",
+                                    "#392B24"
+                                ],
+                                "data": [
+                                    40.9,
+                                    27.4,
+                                    17.2,
+                                    5.8,
+                                    1.0,
+                                    7.7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Americas"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The Americas accounted for 10.8 percent of Ethiopia's total export earnings, showcasing a diverse range of markets. The United States emerged as the primary destination, capturing a significant 87.2 percent share. Canada followed with an 11.5 percent share. Collectively, these countries accounted for 98.7 percent of Ethiopia's total exports to America, reflecting the country's growing presence in the region."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "United States",
+                            "Canada",
+                            "others"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "B",
+                                "backgroundColor": [
+                                    "#4a4e69",
+                                    "#c9ada7",
+                                    "#9a8c98",
+                                    "#f2e9e4"
+                                ],
+                                "data": [
+                                    87.2,
+                                    11.5,
+                                    1.3
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "BQ",
+                "class": "pl-2",
+                "data": "Ethiopia's export trends highlight the importance of key markets in Asia, Europe, Africa, and the Americas. Asian countries, with Saudi Arabia at the forefront, have been instrumental in driving Ethiopia's export revenue. Europe remains a substantial trading hub, with the Netherlands and Switzerland serving as primary destinations. Strong regional connections within Africa have also contributed significantly to Ethiopia's export earnings. Lastly, Ethiopia has made inroads into the American market, primarily through exports to the United States and Canada. Understanding these market dynamics is crucial for policymakers and businesses, offering valuable insights into Ethiopia's export destinations and facilitating strategic trade partnerships for sustainable economic growth."
+            },
+            {
+                "type": "Large",
+                "class": "pt-4 w-full flex justify-center underline  text-center",
+                "data": "To view the material being exported and the total revenue generated of 2022/2023 second quarter check out the following article"
+            },
+            {
+                "type": "InnerLink",
+                "class": "",
+                "data": {
+                    "id": "Q2-2022-2023-import-by-material"
+                }
+            },
+            {
+                "type": "Large",
+                "class": "pt-4 w-full flex justify-center underline text-center ",
+                "data": "To View the import countries analysis of 2022/2023 second quarter check out the following article"
+            },
+            {
+                "type": "InnerLink",
+                "class": "",
+                "data": {
+                    "id": "Q2-2022-2023-import-partners"
+                }
+            }
+        ],
+        "description": "Ethiopia has established strong trade partnerships across continents, with significant contributions from Asia (36.8%), Europe (32.3%), Africa (19.2%), and the Americas (10.8%). This article explores the distribution of Ethiopia's exports to these regions, shedding light on the diverse trade dynamics that have propelled the country's export sector.",
+        "time": 4,
+        "labels": [
+            "Export Report"
+        ],
+        "keywords": [
+            "Import report",
+            "Ethiopia Export data by countries",
+            "Ethiopia Export 2022/2023 second quarter by countries",
+            "Ethiopia Export 2022/2023 Q2 by countries",
+            "Ethiopia Export partnering countries",
+            "Ethiopia Export"
+        ]
+    },
+    "advertisement": false
+}

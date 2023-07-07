@@ -1,0 +1,312 @@
+{
+    "article": {
+        "id": "Q2-2022-2023-import-partners",
+        "image": "https://etlog.s3.amazonaws.com/articles/7/main.webp",
+        "smallerImage": "https://etlog.s3.amazonaws.com/articles/7/comp.webp",
+        "title": "Ethiopia's Import Trends in Q2 FY2022/23: Insights into Key Trading Partners",
+        "date": "2023/07/01",
+        "detail": [
+            {
+                "type": "P",
+                "class": "",
+                "data": "During the second quarter of FY2022/23, Ethiopia's import landscape experienced notable trends, reflecting the country's trade relationships with various regions across the globe. This article delves into the major import sources for Ethiopia, shedding light on the prominent countries driving its imports."
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "Asia",
+                            "Europe",
+                            "Africa",
+                            "America",
+                            "Oceania"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Percentage",
+                                "backgroundColor": [
+                                    "#588157"
+                                ],
+                                "data": [
+                                    64.4,
+                                    16.1,
+                                    11.9,
+                                    7.6,
+                                    0.05
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Asia"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Asia accounted for the primary source of Ethiopia's imports with 64.4 percent of the country's total import volume. Within Asia, several key players played a pivotal role in fulfilling Ethiopia's import needs. Notably, China stood out as the leading contributor with a substantial 32.4 percent share, followed closely by India at 21.8 percent. Additionally, Saudi Arabia (13.8 percent), UAE (12.0 percent), Malaysia (7.3 percent), Kuwait (3.5 percent), Indonesia (2.4 percent), and Thailand (1.3 percent) collectively accounted for a significant 94.5 percent share of Ethiopia's imports from Asia."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "China",
+                            "India",
+                            "Saudi-Arabia",
+                            "U.A.E",
+                            "Malaysia",
+                            "Kuwait",
+                            "Indonesia",
+                            "Thailand",
+                            "other"
+                        ],
+                        "datasets": [
+                            {
+                                "backgroundColor": [
+                                    "#59594A",
+                                    "#CAC996",
+                                    "#8F7B5C",
+                                    "#C49C6E",
+                                    "#BE6E46",
+                                    "#CDE7B0",
+                                    "#9AAC93",
+                                    "#667075",
+                                    "#957569",
+                                    "#667075"
+                                ],
+                                "data": [
+                                    32.4,
+                                    21.8,
+                                    13.8,
+                                    12.0,
+                                    7.3,
+                                    3.5,
+                                    2.4,
+                                    1.3,
+                                    5.5
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Europe"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Europe maintained its importance in Ethiopia's import portfolio, representing 16.1 percent of the country's total imports. Within Europe, Turkey emerged as the major trading partner, capturing a substantial 30.9 percent share. Other noteworthy contributors included Ukraine (12.2 percent), the United Kingdom (8.7 percent), Italy (7.3 percent), Germany (6.4 percent), France (6.1 percent), Belgium (6.0 percent), Russia (3.9 percent), Switzerland (3.0 percent), Spain (2.0 percent), the Netherlands (1.9 percent), Poland (1.3 percent), and Ireland (1.2 percent). These countries collectively accounted for 90.9 percent of Ethiopia's total imports from Europe."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "Turkey",
+                            "Ukraine",
+                            "United Kingdom",
+                            "Italy",
+                            "Germany",
+                            "France",
+                            "Belgium",
+                            "Russia",
+                            "Switzerland",
+                            "Spain",
+                            "Netherlands",
+                            "Poland",
+                            "Ireland",
+                            "others"
+                        ],
+                        "datasets": [
+                            {
+                                "backgroundColor": [
+                                    "#59594A",
+                                    "#CAC996",
+                                    "#8F7B5C",
+                                    "#C49C6E",
+                                    "#BE6E46",
+                                    "#CDE7B0",
+                                    "#9AAC93",
+                                    "#667075",
+                                    "#957569",
+                                    "#667075",
+                                    "#011308",
+                                    "#384D41",
+                                    "#DDF8EB",
+                                    "#8EBDA7",
+                                    "#8EBDA7"
+                                ],
+                                "data": [
+                                    30.9,
+                                    12.2,
+                                    8.7,
+                                    7.3,
+                                    6.4,
+                                    6.1,
+                                    6.0,
+                                    3.9,
+                                    3.0,
+                                    2.0,
+                                    1.9,
+                                    1.3,
+                                    1.2,
+                                    9.1
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Africa"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Africa played a vital role in Ethiopia's import landscape, constituting approximately 11.9 percent of the country's total merchandise import bill. Within the continent, several countries were significant contributors to Ethiopia's imports. Morocco held a notable share at 27.7 percent, followed closely by Djibouti (24.0 percent), Egypt (23.8 percent), South Africa (13.5 percent), Kenya (6.8 percent), and Rwanda (2.5 percent). Together, these nations constituted a substantial 91.5 percent share of Ethiopia's imports from Africa, highlighting the importance of regional trade collaborations."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "Morocco",
+                            "Djibouti",
+                            "Egypt",
+                            "South Africa",
+                            "Kenya",
+                            "Rwanda",
+                            "others"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "B",
+                                "backgroundColor": [
+                                    "#221D23",
+                                    "#4F3824",
+                                    "#D1603D",
+                                    "#DDB967",
+                                    "#908E52",
+                                    "#392B24"
+                                ],
+                                "data": [
+                                    27.7,
+                                    24.0,
+                                    23.8,
+                                    13.5,
+                                    2.5,
+                                    8.5
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Americas"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Imports from the Americas accounted for 7.6 percent of Ethiopia's total import bill, showcasing a diverse mix of sources. The United States stood out as the dominant trading partner within the region, contributing 87.3 percent of the imports. Brazil followed with a share of 2.9 percent, while Canada and Mexico accounted for 2.4 percent and 1.0 percent, respectively. Collectively, these countries played a crucial role in shaping Ethiopia's imports from the Americas."
+            },
+            {
+                "type": "Doughnut",
+                "class": "",
+                "data": {
+                    "legendPosition": "left",
+                    "detail": {
+                        "labels": [
+                            "United States",
+                            "Brazil",
+                            "Canada",
+                            "Mexico",
+                            "others"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "B",
+                                "backgroundColor": [
+                                    "#462255",
+                                    "#AA4465",
+                                    "#FFA69E",
+                                    "#DDFFF7",
+                                    "#93E1D8",
+                                    "#78335D"
+                                ],
+                                "data": [
+                                    87.3,
+                                    2.9,
+                                    2.4,
+                                    1.0,
+                                    6.4
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Large",
+                "class": "pt-4 w-full flex justify-center underline text-center ",
+                "data": "To View the 2021/2022 analysis of countries import check out the following article"
+            },
+            {
+                "type": "InnerLink",
+                "class": "",
+                "data": {
+                    "id": "2021-2022-import-by-countries"
+                }
+            }
+        ],
+        "description": "During the second quarter of FY2022/23, Ethiopia's import landscape experienced notable trends, reflecting the country's trade relationships with various regions across the globe. This article delves into the major import sources for Ethiopia, shedding light on the prominent countries driving its imports.",
+        "time": 4,
+        "labels": [
+            "Import Report"
+        ],
+        "keywords": [
+            "Import report",
+            "Ethiopia Import data by countries",
+            "Ethiopia Import 2022/2023 second quarter by countries",
+            "Ethiopia Import 2022/2023 Q2 by countries",
+            "Ethiopia Import partnering countries",
+            "Ethiopia Import"
+        ]
+    },
+    "advertisement": false
+}

@@ -1,0 +1,345 @@
+{
+    "article": {
+        "id": "2021-2022-Ethio-Telecom-Density-Finance",
+        "image": "https://etlog.s3.amazonaws.com/articles/12/main.webp",
+        "smallerImage": "https://etlog.s3.amazonaws.com/articles/12/comp.webp",
+        "title": "2021/2022 Ethio Telecom density and finance report",
+        "date": "2023/07/04",
+        "detail": [
+            {
+                "type": "P",
+                "class": "",
+                "data": "The telecommunication penetration rate, also known as telecom density, measures the percentage of the population that has access to telecommunication services. In the case of Ethiopia, the telecom density increased from 54.8% in 2020/21 to 63.3% in 2021/22."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The increase in telecom density was mainly driven by a 61.3% improvement in mobile density, meaning more people had access to mobile phone services compared to the previous year. This indicates that more individuals in Ethiopia were able to use mobile phones for communication."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "However, the internet and data density, which measures the percentage of the population with internet and data access, decreased from 24.3% to 21.5%. This suggests that there was a slight decline in the number of people with internet and data connectivity in Ethiopia."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Additionally, the fixed line density, which refers to the percentage of the population with access to fixed line telephony, declined from 0.9 per 100 subscribers to 0.8 per 100 subscribers. This indicates a decrease in the number of people using traditional fixed line telephone services."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, while mobile phone access improved, there was a slight decrease in internet and data connectivity, as well as a decline in fixed line telephony usage in Ethiopia during the mentioned period."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "2019/20, 2020/21, and 2021/22 Telecom Density/100"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Fixed line: Telecom Density/100",
+                                "backgroundColor": "#f9dcc4",
+                                "data": [
+                                    1.0,
+                                    0.9,
+                                    0.8
+                                ]
+                            },
+                            {
+                                "label": "Mobile: Telecom Density/100",
+                                "backgroundColor": "#83c5be",
+                                "data": [
+                                    44.9,
+                                    52.9,
+                                    61.3
+                                ]
+                            },
+                            {
+                                "label": "Internet and data: Telecom Density/100",
+                                "backgroundColor": "#cdb4db",
+                                "data": [
+                                    24.0,
+                                    24.3,
+                                    21.5
+                                ]
+                            },
+                            {
+                                "label": "Total: Telecom Density/100",
+                                "backgroundColor": "#e9edc9",
+                                "data": [
+                                    45.9,
+                                    54.8,
+                                    63.3
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Ethio-telecom's Financial for 2021/22,"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "In the financial year 2021/22, Ethio-telecom's income increased by 11.5% to Birr 62.2 billion compared to Birr 55.8 billion in the previous year (2020/21). This means they earned more money from their services."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "However, their total expenses also increased by 23.2% and reached Birr 31.9 billion during the same period. This means they had to spend more money on various aspects of their operations."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "As a result, Ethio-telecom's gross profit, which is the income minus the expenses, stood at Birr 30.3 billion. This represents a 22.8% increase compared to the previous year."
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Overall, Ethio-telecom experienced growth in their income, but their expenses also increased. However, they still managed to generate a higher gross profit compared to the previous year."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Ethio telecom finance in Billion Birr"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Income in Billion Birr",
+                                "backgroundColor": [
+                                    "#415a77"
+                                ],
+                                "data": [
+                                    47.7,
+                                    55.8,
+                                    62.2
+                                ]
+                            },
+                            {
+                                "label": "Expense in Billion Birr",
+                                "backgroundColor": [
+                                    "#fcd5ce"
+                                ],
+                                "data": [
+                                    23.0,
+                                    25.9,
+                                    31.9
+                                ]
+                            },
+                            {
+                                "label": "Gross Profit in Billion Birr",
+                                "backgroundColor": [
+                                    "#fec89a"
+                                ],
+                                "data": [
+                                    24.7,
+                                    24.7,
+                                    30.3
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Ethio telecom finance growth percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20-2020/21",
+                            "2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Income: growth percentage",
+                                "backgroundColor": "#e0e1dd",
+                                "data": [
+                                    30.4,
+                                    11.5
+                                ]
+                            },
+                            {
+                                "label": "Expense: growth percentage",
+                                "backgroundColor": "#faedcd",
+                                "data": [
+                                    38.5,
+                                    23.2
+                                ]
+                            },
+                            {
+                                "label": "Gross Profit: growth percentage",
+                                "backgroundColor": "#d4a373",
+                                "data": [
+                                    22.8,
+                                    22.8
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Assets"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The value of assets for Ethio-telecom decreased from 59.1 in 2019/20 to 39.1 in 2020/21 and slightly increased to 40.2 in 2021/22. The percentage change shows a decrease of 32.0% initially and then a small increase of 2.8%."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Fixed Gross Depreciation"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "The depreciation expenses for fixed assets increased from 4.1 in 2019/20 to 5.4 in 2020/21 and further to 6.4 in 2021/22. The percentage change indicates a significant increase of 56.1%."
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Ethio telecom Assets and Fixed Gross Depreciation in Billion Birr"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20",
+                            "2020/21",
+                            "2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Assets: in Billion Birr",
+                                "backgroundColor": "#778da9",
+                                "data": [
+                                    59.1,
+                                    39.1,
+                                    40.2
+                                ]
+                            },
+                            {
+                                "label": "Fixed Gross Depreciation: in Billion Birr",
+                                "backgroundColor": "#ffe8d6",
+                                "data": [
+                                    4.1,
+                                    5.4,
+                                    6.4
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "Small",
+                "class": "flex w-full justify-center pb-4 pt-4 text-center",
+                "data": "Ethio telecom Assets and Fixed Gross Depreciation growth percentage"
+            },
+            {
+                "type": "Bar",
+                "class": "",
+                "data": {
+                    "legendPosition": "bottom",
+                    "detail": {
+                        "labels": [
+                            "2019/20-2020/21",
+                            "2020/21-2021/22"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Assets: growth percentage",
+                                "backgroundColor": "#778da9",
+                                "data": [
+                                    -32.0,
+                                    2.8
+                                ]
+                            },
+                            {
+                                "label": "Fixed Gross Depreciation: growth percentage",
+                                "backgroundColor": "#ffe8d6",
+                                "data": [
+                                    56.1,
+                                    18.5
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "BQ",
+                "class": "",
+                "data": "In recent years, the Ethiopian government has embarked on a process to reform and liberalize the telecommunications sector. As part of this reform, Ethio Telecom has undergone significant changes. It has been re-brand and is being prepared for partial privatization, with the government selling a 30% stake to a consortium of international companies in 2019. This move marked a significant shift in the telecommunications landscape in Ethiopia, opening the door for competition and private investment."
+            }
+        ],
+        "description": "The telecommunication penetration rate, also known as telecom density, measures the percentage of the population that has access to telecommunication services. In the case of Ethiopia, the telecom density increased from 54.8% in 2020/21 to 63.3% in 2021/22.",
+        "time": 4,
+        "labels": [
+            "Telecom",
+            "Finance"
+        ],
+        "keywords": [
+            "Telecommunication",
+            "Ethiopia Telecommunication",
+            "Ethiopia Telecommunication density for 2021/2022",
+            "Ethiopia Telecommunication finance for 2021/2022",
+            "Ethiopia Telecommunication assets for 2021/2022",
+            "Ethiopia Telecommunication Fixed Gross Depreciation for 2021/2022",
+            "Ethiopia Telecom density for 2021/2022",
+            "Ethiopia Telecom finance for 2021/2022",
+            "Ethiopia Telecom assets for 2021/2022",
+            "Ethiopia Telecom Fixed Gross Depreciation for 2021/2022"
+        ]
+    },
+    "advertisement": false
+}

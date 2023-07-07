@@ -1,0 +1,180 @@
+{
+    "article": {
+        "id": "ethiopia-taxation-regulation",
+        "image": "https://etlog.s3.amazonaws.com/articles/5/main.webp",
+        "smallerImage": "https://etlog.s3.amazonaws.com/articles/5/comp.webp",
+        "title": "Ethiopia Taxation And Regulation",
+        "date": "2023/07/01",
+        "detail": [
+            {
+                "type": "P",
+                "class": "",
+                "data": "Ethiopian Revenue and Customs Authority (ERCA) is the main tax administration body responsible for collecting taxes and ensuring compliance with tax laws in Ethiopia. The tax system in Ethiopia is a dual system, with both the federal government and regional governments having the authority to levy taxes. The federal government taxes income, profits, property, and goods and services. Regional governments tax land, buildings, and certain types of businesses."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Tax Registration"
+            },
+            {
+                "type": "P",
+                "class": "",
+                "data": "Taxpayer Identification Number (TIN): Individuals and businesses must obtain a TIN from ERCA for tax identification purposes. This TIN is used for filing tax returns and conducting tax-related transactions."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Tax Filing and Compliance"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Annual Tax Returns: Individuals and businesses are required to file annual tax returns within the prescribed timelines. These returns report income, expenses, and other relevant financial information."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Tax Payment: Taxes are typically paid in installments throughout the tax year based on the taxpayer's estimated liability. Any balance owed or refund due is settled upon filing the annual tax return."
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Tax Incentives and Exemptions"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Investment Incentives: Ethiopia provides tax incentives to promote investment and economic development. These incentives include tax holidays, reduced tax rates, and customs duty exemptions for eligible investment projects."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Sector-Specific Incentives: Certain sectors, such as agriculture, export-oriented industries, and renewable energy, may benefit from specific tax incentives to encourage growth and investment."
+            },
+            {
+                "type": "H2T",
+                "class": "",
+                "data": "Tax Audits and Penalties"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Tax Audits: ERCA conducts tax audits to ensure compliance with tax laws. These audits involve reviewing financial records, transactions, and tax returns to assess accuracy and detect any non-compliance."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Penalties and Interest: Non-compliance with tax laws can result in penalties and interest charges. These penalties vary depending on the type of non-compliance and may include fines, interest on outstanding tax amounts, or even criminal charges for severe cases of tax evasion."
+            },
+            {
+                "type": "BQ",
+                "class": "",
+                "data": "It's important to note that tax laws and regulations may evolve over time, so individuals and businesses in Ethiopia should stay updated on any changes or amendments to the tax system. Consulting with a tax professional or contacting ERCA directly can provide specific guidance on tax matters in Ethiopia."
+            },
+            {
+                "type": "AD",
+                "class": "",
+                "data": ""
+            },
+            {
+                "type": "Large",
+                "class": "",
+                "data": "The following proclamations and regulations are referred to for all the information under the tax section."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation 1097/2018 Definition of Powers and Duties of the Executive Organs of the Federal Democratic Republic of Ethiopia Proclamation."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation 979/2016 Federal Income Tax Proclamation."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation 983/2016 Federal Tax Administration Proclamation."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation 715/2011 Private Organizations Employees’ Pension Proclamation as amended by Proclamation No. 908/2015."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation 285/2002 Value Added Tax Proclamation, as amended by Proclamation Nos. 609/2009 and 1157/2019."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Excise Tax Proclamation 1186/2020 Proclamation No. 308/2002 Turnover Tax Proclamation, as amended by 611/2008."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation 110/1998 Stamp Duty Proclamation, as amended by 612/2008."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Investment Proclamation 1180/2020."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation768/2012 Export Trade Duty Incentive Schemes"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Proclamation 859/2014 Customs Proclamation, as amended by Proclamation 1160/2019."
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Regulations 410/2017 Federal Income Tax Regulations"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Regulations 407/2017 Federal Tax Administration Regulations"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Regulations 270/2012 Investment as amended by Regulations No. 370/2014 (a new regulation is at draft stage)"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Regulations 154/2008 Higher Education Cost Sharing Regulations;"
+            },
+            {
+                "type": "List",
+                "class": "",
+                "data": "Regulations 79/2002 Value Added Tax Regulations."
+            }
+        ],
+        "description": "Ethiopian Revenue and Customs Authority (ERCA) is the main tax administration body responsible for collecting taxes and ensuring compliance with tax laws in Ethiopia. The tax system in Ethiopia is a dual system, with both the federal government and regional governments having the authority to levy taxes. The federal government taxes income, profits, property, and goods and services. Regional governments tax land, buildings, and certain types of businesses.",
+        "time": 4,
+        "labels": [
+            "Taxation"
+        ],
+        "keywords": [
+            "Taxation",
+            "Ethiopia Taxation",
+            "Ethiopia Taxation definition",
+            "Ethiopia Taxation Filing",
+            "Ethiopia Taxation Regulation",
+            "Ethiopia Tax Cuts"
+        ]
+    },
+    "advertisement": false
+}
