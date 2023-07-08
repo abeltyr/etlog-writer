@@ -10,7 +10,7 @@ import { useWriter } from '@/context/writer'
 
 export const ShowComponent = ({ articleData, index }: { articleData: DetailType, index: number }) => {
 
-    const { updateData, articleDetail } = useWriter();
+    const { updateData } = useWriter();
     if (articleData.type === "H1T") {
         return (
             <TypographyH1
@@ -150,50 +150,41 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
     }
     else if (articleData.type === "Bar") {
         return (
-            <div className='flex justify-center w-full relative min-w-[320px]'>
-                <div className='w-full xs:w-2/3 '>
-                    <CustomBar
-                        legendPosition={articleData.data.legendPosition}
-                        title={articleData.data.title}
-                        className={`  ${articleData.class}`}
-                        data={
-                            articleData.data.detail
-                        }
-                    />
-                </div>
-            </div>
+            <CustomBar
+                legendPosition={articleData.data.legendPosition}
+                title={articleData.data.title}
+                className={`  ${articleData.class}`}
+                data={
+                    articleData.data.detail
+                }
+            />
+
         )
     }
     else if (articleData.type === "Pie") {
         return (
-            <div className='flex justify-center w-full relative min-w-[320px]'>
-                <div className='w-full xs:w-2/3 md:w-1/2'>
-                    <CustomPie
-                        legendPosition={articleData.data.legendPosition}
-                        title={articleData.data.title}
-                        className={`  ${articleData.class}`}
-                        data={
-                            articleData.data.detail
-                        }
-                    />
-                </div>
-            </div>
+
+            <CustomPie
+                legendPosition={articleData.data.legendPosition}
+                title={articleData.data.title}
+                className={`  ${articleData.class}`}
+                data={
+                    articleData.data.detail
+                }
+            />
         )
     }
     else if (articleData.type === "Doughnut") {
         return (
-            <div className='flex justify-center w-full relative '>
-                <div className='w-full xs:w-2/3 md:w-1/2'>
-                    <CustomDoughnut
-                        legendPosition={articleData.data.legendPosition}
-                        title={articleData.data.title}
-                        className={`  ${articleData.class}`}
-                        data={
-                            articleData.data.detail
-                        }
-                    />
-                </div>
-            </div>
+
+            <CustomDoughnut
+                legendPosition={articleData.data.legendPosition}
+                title={articleData.data.title}
+                className={`  ${articleData.class}`}
+                data={
+                    articleData.data.detail
+                }
+            />
         )
     }
     else if (articleData.type === "OuterLink") {

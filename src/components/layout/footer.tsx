@@ -1,5 +1,4 @@
 import LogoSVG from '@/assets/icons/logo'
-import TwitterSVG from '@/assets/icons/twitter'
 import YoutubeSVG from '@/assets/icons/youtube'
 import Link from 'next/link'
 import React from 'react'

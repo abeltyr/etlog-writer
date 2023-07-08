@@ -27,7 +27,7 @@ export default function HomePage() {
   return (
     <main className="bg-base-100 base-content flex flex-col items-center justify-between overflow-x-hidden">
       <div className='max-w-[1440px] min-w-[320px] py-20
-    px-4 xs:px-8 sm:px-20 md:px-24 lg:px-48 xl:px-64 w-screen'>
+    px-4 xs:px-8 sm:px-10 md:px-24 lg:px-48 xl:px-64 w-screen'>
         <article className="mx-auto space-y-6 min-h-screen">
           <DragDropContext onDragEnd={onDragEnd}>
             <Droppable droppableId={droppableId}>

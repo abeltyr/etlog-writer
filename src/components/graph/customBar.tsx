@@ -24,26 +24,31 @@ export const CustomBar = (
 ) => {
 
     return (
-        <div
-            className={`${className}`}>
-            <div className='w-10/12 2xs:w-auto  min-h-[300px] lg:min-h-[400px]'>
-                <Bar
-                    options={{
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        aspectRatio: 1,
-                        plugins: {
-                            legend: {
-                                position: legendPosition,
-                            },
-                            title: {
-                                display: true,
-                                text: title,
-                            },
-                        },
-                    }}
-                    data={data}
-                />
+        <div className='flex justify-center w-full relative min-w-[320px]'>
+            <div className='w-full xs:w-2/3 '>
+
+                <div
+                    className={`${className}`}>
+                    <div className='w-10/12 2xs:w-auto  min-h-[300px] lg:min-h-[400px]'>
+                        <Bar
+                            options={{
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                aspectRatio: 1,
+                                plugins: {
+                                    legend: {
+                                        position: legendPosition,
+                                    },
+                                    title: {
+                                        display: true,
+                                        text: title,
+                                    },
+                                },
+                            }}
+                            data={data}
+                        />
+                    </div>
+                </div>
             </div>
         </div>
 
