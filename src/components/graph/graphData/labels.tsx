@@ -43,7 +43,7 @@ export const LabelsInput = (
                                     setActiveLabel(!activeLabel)
                                 }}
                             >
-                                <div className={`${activeLabel ? "rotate-0" : "rotate-[-180deg]"} duration-500`}>
+                                <div className={`${activeLabel ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
                                     <DownArrowSVG />
                                 </div>
                             </div>

@@ -46,7 +46,7 @@ export const DatasetsInput = (
                                     setActiveDatasets(!activeDatasets)
                                 }}
                             >
-                                <div className={`${activeDatasets ? "rotate-0" : "rotate-[-180deg]"} duration-500`}>
+                                <div className={`${activeDatasets ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
                                     <DownArrowSVG />
                                 </div>
                             </div>
