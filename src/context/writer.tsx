@@ -75,7 +75,7 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                     "datasets": [
                         {
                             "label": "Total Domestic Revenue: (In Millions of Birr)",
-                            "backgroundColor": "#ffb703",
+                            "backgroundColor": ["#ffb703", "#ffb703", "#ffb703"],
                             "data": [
                                 72998.60,
                                 93388.40,
@@ -104,14 +104,14 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                     "datasets": [
                         {
                             "label": "2021/2022 QIV based Growth Percentage Performance",
-                            "backgroundColor": "#faedcd",
+                            "backgroundColor": ["#ffb703", "#ffb703", "#ffb703"],
                             "data": [
                                 21.9
                             ]
                         },
                         {
                             "label": "2021/2022 QI based Growth Percentage Performance",
-                            "backgroundColor": "#ffb703",
+                            "backgroundColor": ["#ffb703", "#ffb703", "#ffb703"],
                             "data": [
                                 34.1
                             ]
