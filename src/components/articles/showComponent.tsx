@@ -1,12 +1,11 @@
 import React from 'react'
-import { VerticalCard } from '../card'
-import { DetailType } from '@/interface/article'
-import { AdsComponent } from '../advertisement'
+import { DetailType, GraphType } from '@/interface/article'
 import { Blockquote, TypographyH1, TypographyH2, TypographyH3, TypographyInlineCode, TypographyLarge, TypographyLead, TypographyList, TypographyMuted, TypographyP, TypographySmall, TypographyTable } from '../typography'
 import { ImageComponent } from '../imageComponent'
 import { CustomBar, CustomDoughnut, CustomPie } from '../graph'
 import { InnerLink, OuterLink } from '../link'
 import { useWriter } from '@/context/writer'
+import { checkAndResetGraph, checkDataset, checkLabels, resetGraph, } from '@/lib/graph'
 
 export const ShowComponent = ({ articleData, index }: { articleData: DetailType, index: number }) => {
 
@@ -19,7 +18,6 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
                 }}
             />
         )
@@ -32,7 +30,6 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
                 }} />
         )
     }
@@ -42,7 +39,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -52,7 +49,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -64,7 +61,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -76,7 +73,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -97,7 +94,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -109,7 +106,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -120,7 +117,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -131,7 +128,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -143,7 +140,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event.target.outerText })
-                    console.log(event)
+
                 }}
             />
         )
@@ -151,26 +148,54 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
     else if (articleData.type === "Bar") {
         return (
             <CustomBar
-                legendPosition={articleData.data.legendPosition}
-                title={articleData.data.title}
                 className={`  ${articleData.class}`}
                 data={
-                    articleData.data.detail
+                    articleData.data
                 }
+                updateGraphData={({ graphData }: { graphData: GraphType }) => {
+                    if (checkDataset({ data: articleData.data })) {
+                        const data = resetGraph();
+                        updateData({ index: index, data: data })
+                    } else {
+                        updateData({
+                            index: index, data: graphData
+                        })
+                    }
+                }}
+                checkAndResetData={() => {
+                    if (checkAndResetGraph({ data: articleData.data })) {
+                        const data = resetGraph();
+                        updateData({ index: index, data: data })
+                    }
+                }}
             />
 
         )
     }
     else if (articleData.type === "Pie") {
         return (
-
             <CustomPie
-                legendPosition={articleData.data.legendPosition}
-                title={articleData.data.title}
-                className={`  ${articleData.class}`}
+                className={`${articleData.class}`}
                 data={
-                    articleData.data.detail
+                    articleData.data
                 }
+                updateGraphData={({ graphData }: { graphData: GraphType }) => {
+                    if (checkDataset({ data: articleData.data })) {
+                        const data = resetGraph();
+                        updateData({ index: index, data: data })
+                    } else {
+                        updateData({
+                            index: index, data: graphData
+                        })
+                    }
+                }}
+                checkAndResetData={() => {
+                    if (checkAndResetGraph({ data: articleData.data })) {
+                        const data = resetGraph();
+                        updateData({ index: index, data: data })
+                    }
+                }}
+
             />
         )
     }
@@ -178,12 +203,26 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
         return (
 
             <CustomDoughnut
-                legendPosition={articleData.data.legendPosition}
-                title={articleData.data.title}
                 className={`  ${articleData.class}`}
                 data={
-                    articleData.data.detail
+                    articleData.data
                 }
+                updateGraphData={({ graphData }: { graphData: GraphType }) => {
+                    if (checkDataset({ data: articleData.data })) {
+                        const data = resetGraph();
+                        updateData({ index: index, data: data })
+                    } else {
+                        updateData({
+                            index: index, data: graphData
+                        })
+                    }
+                }}
+                checkAndResetData={() => {
+                    if (checkAndResetGraph({ data: articleData.data })) {
+                        const data = resetGraph();
+                        updateData({ index: index, data: data })
+                    }
+                }}
             />
         )
     }
@@ -196,11 +235,6 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
         return (
             <InnerLink className={`${articleData.class}`} data={articleData.data} />
         )
-    }
-    else if (articleData.type === "AD") {
-        return <div className='w-full md:w-auto my-2 bg-neutral  grid rounded-lg items-center'>
-            <AdsComponent />
-        </div>
     }
 
 

@@ -66,8 +66,8 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                 "type": "Bar",
                 "class": "",
                 "data": {
-                    "legendPosition": "bottom",
                     "detail": {
+                        "legendPosition": "bottom",
                         "labels": [
                             "2021/22 QI",
                             "2021/22 QIV",
@@ -98,8 +98,8 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                 "type": "Bar",
                 "class": "",
                 "data": {
-                    "legendPosition": "bottom",
                     "detail": {
+                        "legendPosition": "bottom",
                         "labels": [
                             "Total Domestic Revenue"
                         ],

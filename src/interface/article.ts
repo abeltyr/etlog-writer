@@ -16,11 +16,14 @@ export type LinkType = {
 
 export type GraphType = {
   labels: string[];
-  datasets: {
-    label?: string;
-    data: number[];
-    backgroundColor?: string[];
-    borderColor?: string[];
-    borderWidth?: number;
-  }[];
+  datasets: GraphDatasetType[];
+  legendPosition: any;
+};
+
+export type GraphDatasetType = {
+  label?: string;
+  data: number[];
+  backgroundColor: string[];
+  borderColor?: string[];
+  borderWidth?: number;
 };

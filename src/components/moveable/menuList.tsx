@@ -17,9 +17,11 @@ import {
     CollapsibleContent,
     CollapsibleTrigger,
 } from "@/components/ui/collapsible"
-import { Button } from '../ui/button';
-import SortSVG from '@/assets/icons/sort';
 import DraggableSVG from '@/assets/icons/draggable';
+import DownArrowSVG from '@/assets/icons/downArrow';
+import AddSVG from '@/assets/icons/add';
+import { v4 } from 'uuid';
+import DeleteSVG from '@/assets/icons/delete';
 
 export const MenuList = ({ index }: { index: number }) => {
 
@@ -37,8 +39,35 @@ export const MenuList = ({ index }: { index: number }) => {
                 <DropdownMenuContent className="
               max-h-[400px] overflow-y-auto overflow-x-hidden
                 w-80 bg-base-100 border-neutral ml-3 xs:ml-8 sm:ml-10 md:ml-24 lg:ml-48 xl:ml-64 p-0" >
-                    <DropdownMenuLabel className='fixed z-10 bg-base-100 my-0 mx-[0.15px] w-[310px] py-2 border-b-2 border-neutral rounded-t-sm'>
+                    <DropdownMenuLabel className='fixed z-10 bg-base-100 my-0 mx-[0.15px] w-[310px] pl-2 pr-1  border-b-2 border-neutral rounded-t-sm flex justify-between items-center'>
                         Building blocks
+                        <div className='flex gap-x-2 items-center'>
+                            <div className=' hover:scale-100 scale-90 duration-500 cursor-pointer w-6 h-6' onClick={() => {
+                                let data = [...articleDetail]
+                                const createdValue = {
+                                    id: v4(),
+                                    "type": "P",
+                                    "class": "",
+                                    "data": ""
+                                };
+                                if (index === data.length - 1) {
+                                    data = [...data, createdValue]
+                                }
+                                else {
+                                    data.splice(index + 1, 0, createdValue);
+                                }
+                                updateArticle(data);
+                            }}>
+                                <AddSVG width='100%' height='100%' />
+                            </div>
+                            {articleDetail.length > 1 && <div className='hover:scale-100 scale-90 duration-500 cursor-pointer w-6 h-6 hover:text-error' onClick={() => {
+                                let data = [...articleDetail]
+                                const newData = [...data.slice(0, index), ...data.slice(index + 1, data.length,)];
+                                updateArticle(newData);
+                            }}>
+                                <DeleteSVG width='100%' height='100%' />
+                            </div>}
+                        </div>
                     </DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuRadioGroup value={articleDetail[index].type} onValueChange={(value) => {
@@ -59,8 +88,8 @@ export const MenuList = ({ index }: { index: number }) => {
                                 <CollapsibleTrigger asChild>
                                     <div className={`rounded-lg cursor-pointer flex justify-between hover:bg-neutral items-center w-full p-2 duration-500 my-1 mt-10 ${openCollapseAble === 0 ? "bg-neutral" : "bg-base-200"}`}>
                                         Typography
-                                        <div className='h-4'>
-                                            <SortSVG height='100%' width='100%' />
+                                        <div className={`h-4 ${openCollapseAble === 0 ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
+                                            <DownArrowSVG height='100%' width='100%' />
                                         </div>
                                     </div>
                                 </CollapsibleTrigger>
@@ -125,21 +154,21 @@ export const MenuList = ({ index }: { index: number }) => {
                                 <CollapsibleTrigger asChild>
                                     <div className={`rounded-lg cursor-pointer flex justify-between hover:bg-neutral items-center w-full p-2 duration-500 my-1 ${openCollapseAble === 1 ? "bg-neutral" : "bg-base-200"}`}>
                                         Graph
-                                        <div className='h-4'>
-                                            <SortSVG height='100%' width='100%' />
+                                        <div className={`h-4 ${openCollapseAble === 1 ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
+                                            <DownArrowSVG height='100%' width='100%' />
                                         </div>
                                     </div>
                                 </CollapsibleTrigger>
                             </div>
                             <CollapsibleContent className="space-y-2">
-                                <DropdownMenuRadioItem value="Table">Table</DropdownMenuRadioItem>
+                                {/* <DropdownMenuRadioItem value="Table">Table</DropdownMenuRadioItem> */}
                                 <DropdownMenuRadioItem value="Bar">Bar</DropdownMenuRadioItem>
                                 <DropdownMenuRadioItem value="Pie">Pie</DropdownMenuRadioItem>
                                 <DropdownMenuRadioItem value="Doughnut">Doughnut</DropdownMenuRadioItem>
                             </CollapsibleContent>
                         </Collapsible>
 
-                        <Collapsible
+                        {/* <Collapsible
                             open={openCollapseAble === 2}
                             onOpenChange={() => {
                                 let value = 2;
@@ -152,8 +181,8 @@ export const MenuList = ({ index }: { index: number }) => {
                                 <CollapsibleTrigger asChild>
                                     <div className={`rounded-lg cursor-pointer flex justify-between hover:bg-neutral items-center w-full p-2 duration-500 my-1 ${openCollapseAble === 2 ? "bg-neutral" : "bg-base-200"}`}>
                                         Links
-                                        <div className='h-4'>
-                                            <SortSVG height='100%' width='100%' />
+                                        <div className={`h-4 ${openCollapseAble === 2 ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
+                                            <DownArrowSVG height='100%' width='100%' />
                                         </div>
                                     </div>
                                 </CollapsibleTrigger>
@@ -177,8 +206,8 @@ export const MenuList = ({ index }: { index: number }) => {
                                 <CollapsibleTrigger asChild>
                                     <div className={`rounded-lg cursor-pointer flex justify-between hover:bg-neutral items-center w-full p-2 duration-500 my-1 ${openCollapseAble === 3 ? "bg-neutral" : "bg-base-200"}`}>
                                         Media
-                                        <div className='h-4'>
-                                            <SortSVG height='100%' width='100%' />
+                                        <div className={`h-4 ${openCollapseAble === 3 ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
+                                            <DownArrowSVG height='100%' width='100%' />
                                         </div>
                                     </div>
                                 </CollapsibleTrigger>
@@ -190,11 +219,11 @@ export const MenuList = ({ index }: { index: number }) => {
                                 <DropdownMenuRadioItem value="Image">Video Link</DropdownMenuRadioItem>
                                 <DropdownMenuRadioItem value="Image">Youtube Video</DropdownMenuRadioItem>
                             </CollapsibleContent>
-                        </Collapsible>
+                        </Collapsible> */}
                     </DropdownMenuRadioGroup>
                 </DropdownMenuContent>
             </DropdownMenu>
-            <div className='text-neutral-content/50 hover:text-neutral-content active:text-neutral-content duration-500 my-2'>
+            <div className='text-neutral-content/10 hover:text-neutral-content active:text-neutral-content duration-500 my-2'>
                 <DraggableSVG />
             </div>
         </div>
