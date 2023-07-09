@@ -66,25 +66,24 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                 "type": "Bar",
                 "class": "",
                 "data": {
-                    "detail": {
-                        "legendPosition": "bottom",
-                        "labels": [
-                            "2021/22 QI",
-                            "2021/22 QIV",
-                            "2022/23 QI"
-                        ],
-                        "datasets": [
-                            {
-                                "label": "Total Domestic Revenue: (In Millions of Birr)",
-                                "backgroundColor": "#ffb703",
-                                "data": [
-                                    72998.60,
-                                    93388.40,
-                                    97886.40
-                                ]
-                            }
-                        ]
-                    }
+                    "legendPosition": "bottom",
+                    "labels": [
+                        "2021/22 QI",
+                        "2021/22 QIV",
+                        "2022/23 QI"
+                    ],
+                    "datasets": [
+                        {
+                            "label": "Total Domestic Revenue: (In Millions of Birr)",
+                            "backgroundColor": "#ffb703",
+                            "data": [
+                                72998.60,
+                                93388.40,
+                                97886.40
+                            ]
+                        }
+                    ]
+
                 }
             },
             {
@@ -98,28 +97,26 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                 "type": "Bar",
                 "class": "",
                 "data": {
-                    "detail": {
-                        "legendPosition": "bottom",
-                        "labels": [
-                            "Total Domestic Revenue"
-                        ],
-                        "datasets": [
-                            {
-                                "label": "2021/2022 QIV based Growth Percentage Performance",
-                                "backgroundColor": "#faedcd",
-                                "data": [
-                                    21.9
-                                ]
-                            },
-                            {
-                                "label": "2021/2022 QI based Growth Percentage Performance",
-                                "backgroundColor": "#ffb703",
-                                "data": [
-                                    34.1
-                                ]
-                            }
-                        ]
-                    }
+                    "legendPosition": "bottom",
+                    "labels": [
+                        "Total Domestic Revenue"
+                    ],
+                    "datasets": [
+                        {
+                            "label": "2021/2022 QIV based Growth Percentage Performance",
+                            "backgroundColor": "#faedcd",
+                            "data": [
+                                21.9
+                            ]
+                        },
+                        {
+                            "label": "2021/2022 QI based Growth Percentage Performance",
+                            "backgroundColor": "#ffb703",
+                            "data": [
+                                34.1
+                            ]
+                        }
+                    ]
                 }
             },
             {
