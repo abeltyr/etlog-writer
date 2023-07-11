@@ -6,4 +6,3 @@ const DownloadSVG = ({ width = "24", height = "24" }: { width?: string, height?:
 }
 
 export default DownloadSVG;
-

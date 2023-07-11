@@ -4,6 +4,7 @@ import { resetServerContext, DragDropContext, Droppable, Draggable, DropResult }
 import { useWriter } from '@/context/writer';
 import { DownloadBox, MenuList } from '@/components/moveable';
 import { useEffect, useState } from 'react';
+import { UploadBox } from '@/components/moveable/uploadBox';
 
 export default function HomePage() {
   useEffect(() => {
@@ -65,6 +66,7 @@ export default function HomePage() {
           </DragDropContext>
         </article>
       </div>
+      <UploadBox />
       <DownloadBox />
     </main>
   )
