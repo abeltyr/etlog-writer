@@ -102,10 +102,29 @@ export const DatasetInput = (
 
                             {dataset.backgroundColor.map((colorData, secondIndex) => {
                                 return (
-                                    <div key={secondIndex} className='flex w-6 items-center h-full overflow-hidden border-0  '>
+                                    <div key={secondIndex} className='flex items-center h-full overflow-hidden border-0 gap-x-2'>
+                                        <div className='w-6 h-full flex items-center '>
+                                            <Input
+                                                className='w-full h-[70%]  duration-500 p-0 m-0 cursor-pointer border-transparent outline-0 bg-transparent rounded-full overflow-hidden border-0'
+                                                type="color"
+                                                value={colorData}
+                                                onInput={(event: any) => {
+                                                    let newGraphData: GraphType = {
+                                                        labels: [...data.labels],
+                                                        datasets: [...data.datasets],
+                                                        legendPosition: data.legendPosition
+                                                    }
+                                                    const newColorSet = [...newGraphData.datasets[index].backgroundColor]
+                                                    newColorSet[secondIndex] = (event.target.value);
+                                                    newGraphData.datasets[index].backgroundColor = newColorSet;
+                                                    updateGraphData({ graphData: newGraphData })
+                                                }}
+                                            />
+                                        </div>
                                         <Input
-                                            className='w-full h-[70%]  duration-500 p-0 m-0 cursor-pointer border-transparent outline-0 bg-transparent rounded-full overflow-hidden border-0'
-                                            type="color"
+                                            className='flex-1 w-full bg-transparent border-neutral outline-none focus:outline-none focus:border-neutral-content/90 duration-500'
+                                            type="text"
+                                            placeholder={`${data.labels[index]} color`}
                                             value={colorData}
                                             onInput={(event: any) => {
                                                 let newGraphData: GraphType = {
