@@ -151,7 +151,17 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
 
     const updateData = async ({ index, data }: { index: number, data: any }) => {
         let article = [...articleDetail]
-        if (data.target && data.target.outerText) {
+        if (articleDetail[index].type === "H1T" ||
+            articleDetail[index].type === "H2T" ||
+            articleDetail[index].type === "H3T" ||
+            articleDetail[index].type === "P" ||
+            articleDetail[index].type === "List" ||
+            articleDetail[index].type === "BQ" ||
+            articleDetail[index].type === "InLineCode" ||
+            articleDetail[index].type === "Lead" ||
+            articleDetail[index].type === "Large" ||
+            articleDetail[index].type === "Small" ||
+            articleDetail[index].type === "Muted") {
             if (data.key === "Enter") {
                 data.preventDefault();
                 const createdValue = {
@@ -175,6 +185,7 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
 
             if (data.key === "Backspace" && article[index].data === "") {
                 data.preventDefault();
+                console.log("here")
                 const articleData = [...article.slice(0, index), ...article.slice(index + 1, data.length,)];
                 updateArticle(articleData);
                 let lengthData = index - 1;
