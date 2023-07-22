@@ -53,7 +53,7 @@ export const DatasetInput = (
                                         setActiveDataset(newIndex)
                                     }}
                                 >
-                                    <div className={`${activeDataset ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
+                                    <div className={`${index === activeDataset ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
                                         <DownArrowSVG />
                                     </div>
                                 </div>

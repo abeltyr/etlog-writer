@@ -27,7 +27,7 @@ export const TypographyP = ({
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
-                onInput={(event: any) => {
+                onKeyDown={(event: any) => {
                     onUpdate(event)
                 }}
                 placeholder="Text" />

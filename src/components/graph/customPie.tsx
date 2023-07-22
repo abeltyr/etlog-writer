@@ -59,6 +59,7 @@ export const CustomPie = (
                             className={`${className}`}>
                             <div className='w-10/12 2xs:w-auto  min-h-[300px] lg:min-h-[400px]'>
                                 <Pie
+                                    height={450}
                                     options={{
                                         responsive: true,
                                         plugins: {
@@ -66,6 +67,13 @@ export const CustomPie = (
                                                 position: data?.legendPosition,
                                             },
                                         },
+                                        layout: {
+                                            padding: {
+                                                bottom: 10,
+                                                left: 10,
+                                                right: 10
+                                            }
+                                        }
                                     }}
                                     data={{
                                         datasets: data?.datasets,

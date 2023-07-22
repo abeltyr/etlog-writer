@@ -28,7 +28,7 @@ export const TypographyH1 = ({
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
-                onInput={(event: any) => {
+                onKeyDown={(event: any) => {
                     onUpdate(event)
                 }}
                 placeholder={"Header 1"}
