@@ -58,6 +58,7 @@ export const CustomDoughnut = (
                             className={`${className}`}>
                             <div className='w-10/12 2xs:w-auto  min-h-[300px] lg:min-h-[400px]'>
                                 <Doughnut
+                                    height={450}
                                     options={{
                                         responsive: true,
                                         plugins: {
@@ -66,6 +67,13 @@ export const CustomDoughnut = (
                                             },
 
                                         },
+                                        layout: {
+                                            padding: {
+                                                bottom: 10,
+                                                left: 10,
+                                                right: 10
+                                            }
+                                        }
                                     }}
                                     data={{
                                         datasets: data?.datasets,

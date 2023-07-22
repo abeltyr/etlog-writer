@@ -17,7 +17,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 data={articleData.data}
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
                 }}
             />
         )
@@ -29,7 +29,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
 
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
                 }} />
         )
     }
@@ -38,7 +38,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
             <TypographyH3 className={`${articleData.class}`} data={articleData.data}
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -48,7 +48,8 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
             <TypographyP className={`${articleData.class}`} data={articleData.data}
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -60,7 +61,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
 
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -72,7 +73,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
 
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -93,7 +94,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
             <TypographyInlineCode className={`${articleData.class}`} data={articleData.data}
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -105,7 +106,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
 
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -116,7 +117,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
             <TypographyLarge className={`${articleData.class}`} data={articleData.data}
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -127,7 +128,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
             <TypographySmall className={`${articleData.class}`} data={articleData.data}
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />
@@ -139,7 +140,7 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
 
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-                    updateData({ index: index, data: event.target.outerText })
+                    updateData({ index: index, data: event })
 
                 }}
             />

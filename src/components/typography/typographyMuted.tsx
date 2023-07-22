@@ -27,7 +27,7 @@ export const TypographyMuted = ({
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
-                onInput={(event: any) => {
+                onKeyDown={(event: any) => {
                     onUpdate(event)
                 }}
                 placeholder="Muted Text" />
