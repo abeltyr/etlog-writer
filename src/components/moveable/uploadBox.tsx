@@ -24,7 +24,7 @@ export const UploadBox = () => {
     const [open, setOpen] = useState(false)
     const [article, setArticle] = useState<DetailType[]>([])
     return (
-        <div className='fixed bottom-9 left-9 w-14 h-14 px-3 cursor-pointer bg-neutral-content text-base-100  flex justify-center items-center rounded-xl hover:scale-110 duration-500 '
+        <div className='fixed bottom-28 left-9 w-14 h-14 px-3 cursor-pointer bg-neutral-content text-base-100  flex justify-center items-center rounded-xl hover:scale-110 duration-500 '
         >
             <Dialog open={open}>
                 <DialogTrigger>

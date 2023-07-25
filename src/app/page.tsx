@@ -2,7 +2,7 @@
 import { ShowComponent } from '@/components/articles';
 import { resetServerContext, DragDropContext, Droppable, Draggable, DropResult } from "react-beautiful-dnd";
 import { useWriter } from '@/context/writer';
-import { DownloadBox, MenuList } from '@/components/moveable';
+import { DownloadBox, MenuList, MoveDown, MoveUp } from '@/components/moveable';
 import { useEffect, useState } from 'react';
 import { UploadBox } from '@/components/moveable/uploadBox';
 
@@ -66,6 +66,8 @@ export default function HomePage() {
           </DragDropContext>
         </article>
       </div>
+      <MoveUp />
+      <MoveDown />
       <UploadBox />
       <DownloadBox />
     </main>
