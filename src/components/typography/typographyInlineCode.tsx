@@ -4,11 +4,13 @@ export const TypographyInlineCode = ({
     data,
     className,
     id,
-    onUpdate
+    onUpdate,
+    keyInputListener
 }: {
     data: string,
     className: string,
     id: string,
+    keyInputListener: Function
     onUpdate: Function
 }) => {
 
@@ -23,15 +25,18 @@ export const TypographyInlineCode = ({
 
 
     return (
-        <div className={className}>
-            <code className={`relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold outline-none cursor-text`}
+        <div className={`bg-neutral p-4 rounded-md  ${className}`}>
+            <code className={`relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold outline-none cursor-text w-full`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
                 onKeyDown={(event: any) => {
-                    onUpdate(event)
+                    keyInputListener(event)
                 }}
-                placeholder="inLine code" />
+                onInput={(event: any) => {
+                    onUpdate(event.target.outerText)
+                }}
+                placeholder="Inline code" />
         </div>
     )
 }

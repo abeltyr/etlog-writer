@@ -8,6 +8,7 @@ import {
     CollapsibleTrigger,
 } from "@/components/ui/collapsible"
 import { GraphDatasetType, GraphType } from '@/interface/article';
+import { useState } from 'react';
 
 
 export const DatasetInput = (
@@ -32,10 +33,12 @@ export const DatasetInput = (
 
 
 
+    const [activeDatasets, setActiveDatasets] = useState<boolean>(true)
+
     return (
         <div className={`w-full mb-4  border-base-300 border-2 px-2 py-1 rounded-xl duration-500`}>
             <Collapsible
-                open={activeDataset === index}
+                open={activeDatasets}
                 onOpenChange={() => {
                 }}
                 className="w-full space-y-2"
@@ -48,12 +51,10 @@ export const DatasetInput = (
                                 <div
                                     className={`cursor-pointer bg-neutral-content/80 text-neutral rounded-md  w-6 h-6 flex justify-center items-center hover:scale-110 duration-500 hover:bg-neutral-content `}
                                     onClick={() => {
-                                        let newIndex = index
-                                        if (index === activeDataset) newIndex = -1
-                                        setActiveDataset(newIndex)
+                                        setActiveDatasets(!activeDatasets)
                                     }}
                                 >
-                                    <div className={`${index === activeDataset ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
+                                    <div className={`${activeDatasets ? "rotate-[-180deg]" : "rotate-0"} duration-500`}>
                                         <DownArrowSVG />
                                     </div>
                                 </div>

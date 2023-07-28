@@ -4,11 +4,13 @@ export const Blockquote = ({
     data,
     className,
     id,
-    onUpdate
+    onUpdate,
+    keyInputListener
 }: {
     data: string,
     className: string,
     id: string,
+    keyInputListener: Function
     onUpdate: Function
 }) => {
 
@@ -21,15 +23,18 @@ export const Blockquote = ({
     }, [])
 
     return (
-        <div className={className}>
-            <blockquote className={`border-l-2 pl-6 italic outline-none cursor-text`}
+        <div className={`h-full ${className}`}>
+            <blockquote className={`border-l-2 h-full pl-6 italic outline-none cursor-text`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
                 onKeyDown={(event: any) => {
-                    onUpdate(event)
+                    keyInputListener(event)
                 }}
-                placeholder="Header 2" />
+                onInput={(event: any) => {
+                    onUpdate(event.target.outerText)
+                }}
+                placeholder="'Quote'" />
         </div>
 
     )

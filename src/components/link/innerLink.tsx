@@ -1,14 +1,13 @@
 import React from 'react'
 import { ImageComponent } from '../imageComponent'
 import Link from 'next/link'
-import { DetailType } from '@/interface/article'
+
 
 export const InnerLink = ({ data, className }: { data: any, className: string }) => {
 
 
     if (data.id != null) {
 
-        const article: DetailType = require(`@/assets/articles/${data.id}.json`)
         return (
             <Link href={`/article/${data.id}`} className={`cursor-pointer ${className} hover:scale-[102%] 2xs::hover:scale-105 duration-700`}>
                 {/* <div className="flex flex-wrap bg-neutral shadow-xl w-full gap-y-2 overflow-hidden rounded-lg">

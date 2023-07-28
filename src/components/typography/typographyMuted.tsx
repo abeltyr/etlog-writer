@@ -4,11 +4,13 @@ export const TypographyMuted = ({
     data,
     className,
     id,
-    onUpdate
+    onUpdate,
+    keyInputListener
 }: {
     data: string,
     className: string,
     id: string,
+    keyInputListener: Function
     onUpdate: Function
 }) => {
 
@@ -28,7 +30,10 @@ export const TypographyMuted = ({
                 contentEditable
                 suppressContentEditableWarning={true}
                 onKeyDown={(event: any) => {
-                    onUpdate(event)
+                    keyInputListener(event)
+                }}
+                onInput={(event: any) => {
+                    onUpdate(event.target.outerText)
                 }}
                 placeholder="Muted Text" />
 

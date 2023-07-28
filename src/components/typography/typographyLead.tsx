@@ -4,14 +4,15 @@ export const TypographyLead = ({
     data,
     className,
     id,
-    onUpdate
+    onUpdate,
+    keyInputListener
 }: {
     data: string,
     className: string,
     id: string,
+    keyInputListener: Function
     onUpdate: Function
 }) => {
-
     useEffect(() => {
         const el: any = document.getElementById(id);
 
@@ -29,7 +30,10 @@ export const TypographyLead = ({
                 contentEditable
                 suppressContentEditableWarning={true}
                 onKeyDown={(event: any) => {
-                    onUpdate(event)
+                    keyInputListener(event)
+                }}
+                onInput={(event: any) => {
+                    onUpdate(event.target.outerText)
                 }}
                 placeholder="Lead" />
         </div>

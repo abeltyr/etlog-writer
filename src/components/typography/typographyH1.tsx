@@ -6,11 +6,13 @@ export const TypographyH1 = ({
     data,
     className,
     id,
-    onUpdate
+    onUpdate,
+    keyInputListener
 }: {
     data: string,
     className: string,
     id: string,
+    keyInputListener: Function
     onUpdate: Function
 }) => {
 
@@ -29,7 +31,10 @@ export const TypographyH1 = ({
                 contentEditable
                 suppressContentEditableWarning={true}
                 onKeyDown={(event: any) => {
-                    onUpdate(event)
+                    keyInputListener(event)
+                }}
+                onInput={(event: any) => {
+                    onUpdate(event.target.outerText)
                 }}
                 placeholder={"Header 1"}
             >

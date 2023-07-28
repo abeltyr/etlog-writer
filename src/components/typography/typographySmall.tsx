@@ -4,11 +4,13 @@ export const TypographySmall = ({
     data,
     className,
     id,
-    onUpdate
+    onUpdate,
+    keyInputListener
 }: {
     data: string,
     className: string,
     id: string,
+    keyInputListener: Function
     onUpdate: Function
 }) => {
 
@@ -27,9 +29,12 @@ export const TypographySmall = ({
                 contentEditable
                 suppressContentEditableWarning={true}
                 onKeyDown={(event: any) => {
-                    onUpdate(event)
+                    keyInputListener(event)
                 }}
-                placeholder="Header 2" />
+                onInput={(event: any) => {
+                    onUpdate(event.target.outerText)
+                }}
+                placeholder="Small Text" />
         </div>
     )
 }

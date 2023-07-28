@@ -9,7 +9,7 @@ import { checkAndResetGraph, checkDataset, checkLabels, resetGraph, } from '@/li
 
 export const ShowComponent = ({ articleData, index }: { articleData: DetailType, index: number }) => {
 
-    const { updateData } = useWriter();
+    const { keyInputListener, updateData } = useWriter();
     if (articleData.type === "H1T") {
         return (
             <TypographyH1
@@ -18,6 +18,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -30,6 +33,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }} />
         )
     }
@@ -39,7 +45,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -48,9 +56,10 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
             <TypographyP className={`${articleData.class}`} data={articleData.data}
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
-
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -62,7 +71,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -74,7 +85,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -95,7 +108,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -107,7 +122,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -118,7 +135,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -129,7 +148,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )
@@ -141,7 +162,9 @@ export const ShowComponent = ({ articleData, index }: { articleData: DetailType,
                 id={`EditAble-${articleData.id}`}
                 onUpdate={(event: any) => {
                     updateData({ index: index, data: event })
-
+                }}
+                keyInputListener={(event: any) => {
+                    keyInputListener({ index: index, data: event })
                 }}
             />
         )

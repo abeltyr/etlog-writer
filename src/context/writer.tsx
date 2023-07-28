@@ -10,6 +10,7 @@ const initialValues: {
     updateDetail: Function,
     updateType: Function,
     updateData: Function,
+    keyInputListener: Function,
     download: Function,
 } = {
     articleDetail: [],
@@ -17,6 +18,7 @@ const initialValues: {
     updateDetail: ({ index, detail }: { index: number, detail: DetailType }) => { },
     updateType: ({ index, type }: { index: number, type: string }) => { },
     updateData: ({ index, data }: { index: number, data: any }) => { },
+    keyInputListener: ({ index, data }: { index: number, data: any }) => { },
     download: () => { },
 };
 
@@ -149,117 +151,109 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
         updateArticle(article)
     }
 
+    const keyInputListener = async ({ index, data }: { index: number, data: any }) => {
+        let article = [...articleDetail]
+        if (data.key === "Enter") {
+            data.preventDefault();
+            const createdValue = {
+                id: v4(),
+                "type": article[index].type,
+                "class": article[index].class,
+                "data": ""
+            };
+            if (index === data.length - 1) {
+                article = [...article, createdValue]
+            }
+            else {
+                article.splice(index + 1, 0, createdValue);
+            }
+            await updateArticle(article);
+            setTimeout(() => {
+                moveCursor({ id: `EditAble-${article[index + 1].id}`, cursorEnd: false })
+            }, 100)
+            return;
+        }
+
+        if (data.key === "Backspace" && article[index].data === "") {
+            data.preventDefault();
+            console.log("here")
+            const articleData = [...article.slice(0, index), ...article.slice(index + 1, data.length,)];
+            updateArticle(articleData);
+            let lengthData = index - 1;
+            if (lengthData < 0) lengthData = 0;
+            moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
+            return;
+        }
+
+        if (data.key === "ArrowUp") {
+            const selection = window.getSelection();
+            if (selection) {
+                if (selection.rangeCount === 0) return;
+                const range = selection.getRangeAt(0);
+                const caretPosition = range.startOffset;
+                let lengthData = index - 1;
+                if (caretPosition === 0 && index > 0) {
+                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
+                }
+            }
+            return;
+        }
+
+        if (data.key === "ArrowLeft") {
+            const selection = window.getSelection();
+            if (selection) {
+                if (selection.rangeCount === 0) return;
+                const range = selection.getRangeAt(0);
+                const caretPosition = range.startOffset;
+                let lengthData = index - 1;
+                if (caretPosition === 0 && index > 0) {
+                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
+                }
+            }
+            return;
+        }
+
+        if (data.key === "ArrowDown") {
+
+            const selection = window.getSelection();
+            if (selection) {
+                if (selection.rangeCount === 0) return;
+
+                const range = selection.getRangeAt(0);
+                const caretPosition = range.endOffset;
+                const textLength = article[index].data.length;
+                if (caretPosition === textLength) {
+                    let lengthData = index + 1;
+                    if (lengthData >= article.length) lengthData = index;
+                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: false })
+                }
+            }
+            return;
+        }
+
+        if (data.key === "ArrowRight") {
+            const selection = window.getSelection();
+            if (selection) {
+                if (selection.rangeCount === 0) return;
+
+                const range = selection.getRangeAt(0);
+                const caretPosition = range.endOffset;
+                const textLength = article[index].data.length;
+                if (caretPosition === textLength) {
+                    let lengthData = index + 1;
+                    if (lengthData >= article.length) lengthData = index;
+                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: false })
+                }
+            }
+            return;
+        }
+
+    }
+
+
     const updateData = async ({ index, data }: { index: number, data: any }) => {
         let article = [...articleDetail]
-        if (articleDetail[index].type === "H1T" ||
-            articleDetail[index].type === "H2T" ||
-            articleDetail[index].type === "H3T" ||
-            articleDetail[index].type === "P" ||
-            articleDetail[index].type === "List" ||
-            articleDetail[index].type === "BQ" ||
-            articleDetail[index].type === "InLineCode" ||
-            articleDetail[index].type === "Lead" ||
-            articleDetail[index].type === "Large" ||
-            articleDetail[index].type === "Small" ||
-            articleDetail[index].type === "Muted") {
-            if (data.key === "Enter") {
-                data.preventDefault();
-                const createdValue = {
-                    id: v4(),
-                    "type": article[index].type,
-                    "class": article[index].class,
-                    "data": ""
-                };
-                if (index === data.length - 1) {
-                    article = [...article, createdValue]
-                }
-                else {
-                    article.splice(index + 1, 0, createdValue);
-                }
-                await updateArticle(article);
-                setTimeout(() => {
-                    moveCursor({ id: `EditAble-${article[index + 1].id}`, cursorEnd: false })
-                }, 100)
-                return;
-            }
-
-            if (data.key === "Backspace" && article[index].data === "") {
-                data.preventDefault();
-                console.log("here")
-                const articleData = [...article.slice(0, index), ...article.slice(index + 1, data.length,)];
-                updateArticle(articleData);
-                let lengthData = index - 1;
-                if (lengthData < 0) lengthData = 0;
-                moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
-                return;
-            }
-
-            if (data.key === "ArrowUp") {
-                const selection = window.getSelection();
-                if (selection) {
-                    if (selection.rangeCount === 0) return;
-                    const range = selection.getRangeAt(0);
-                    const caretPosition = range.startOffset;
-                    let lengthData = index - 1;
-                    if (caretPosition === 0 && index > 0) {
-                        moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
-                    }
-                }
-                return;
-            }
-
-            if (data.key === "ArrowLeft") {
-                const selection = window.getSelection();
-                if (selection) {
-                    if (selection.rangeCount === 0) return;
-                    const range = selection.getRangeAt(0);
-                    const caretPosition = range.startOffset;
-                    let lengthData = index - 1;
-                    if (caretPosition === 0 && index > 0) {
-                        moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
-                    }
-                }
-                return;
-            }
-
-            if (data.key === "ArrowDown") {
-
-                const selection = window.getSelection();
-                if (selection) {
-                    if (selection.rangeCount === 0) return;
-
-                    const range = selection.getRangeAt(0);
-                    const caretPosition = range.endOffset;
-                    const textLength = article[index].data.length;
-                    if (caretPosition === textLength) {
-                        let lengthData = index + 1;
-                        if (lengthData >= article.length) lengthData = index;
-                        moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: false })
-                    }
-                }
-                return;
-            }
-
-            if (data.key === "ArrowRight") {
-                const selection = window.getSelection();
-                if (selection) {
-                    if (selection.rangeCount === 0) return;
-
-                    const range = selection.getRangeAt(0);
-                    const caretPosition = range.endOffset;
-                    const textLength = article[index].data.length;
-                    if (caretPosition === textLength) {
-                        let lengthData = index + 1;
-                        if (lengthData >= article.length) lengthData = index;
-                        moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: false })
-                    }
-                }
-                return;
-            }
-            article[index].data = data.target.outerText;
-        } else {
-            article[index].data = data;
-        }
+        article[index].data = data;
         updateArticle(article)
     }
 
@@ -305,6 +299,7 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                 updateArticle,
                 updateDetail,
                 updateType,
+                keyInputListener,
                 updateData,
                 download
             }}

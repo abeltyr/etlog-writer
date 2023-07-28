@@ -4,11 +4,13 @@ export const TypographyH3 = ({
     data,
     className,
     id,
-    onUpdate
+    onUpdate,
+    keyInputListener
 }: {
     data: string,
     className: string,
     id: string,
+    keyInputListener: Function
     onUpdate: Function
 }) => {
 
@@ -28,9 +30,12 @@ export const TypographyH3 = ({
                 contentEditable
                 suppressContentEditableWarning={true}
                 onKeyDown={(event: any) => {
-                    onUpdate(event)
+                    keyInputListener(event)
                 }}
-                placeholder="Header 2" />
+                onInput={(event: any) => {
+                    onUpdate(event.target.outerText)
+                }}
+                placeholder="Header 3" />
         </div>
     )
 }
