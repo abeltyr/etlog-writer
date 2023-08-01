@@ -1,3 +1,4 @@
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const TypographyLarge = ({
@@ -25,7 +26,7 @@ export const TypographyLarge = ({
 
     return (
         <div className={className}>
-            <div className={`text-lg font-semibold outline-none cursor-text`}
+            <div className={`text-start text-lg font-semibold outline-none cursor-text`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
@@ -34,6 +35,9 @@ export const TypographyLarge = ({
                 }}
                 onInput={(event: any) => {
                     onUpdate(event.target.outerText)
+                }}
+                onPaste={(event: any) => {
+                    onPaste({ event, id, onUpdate })
                 }}
                 placeholder="Large" />
         </div>

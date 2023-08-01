@@ -1,3 +1,4 @@
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const Blockquote = ({
@@ -33,6 +34,9 @@ export const Blockquote = ({
                 }}
                 onInput={(event: any) => {
                     onUpdate(event.target.outerText)
+                }}
+                onPaste={(event: any) => {
+                    onPaste({ event, id, onUpdate })
                 }}
                 placeholder="'Quote'" />
         </div>

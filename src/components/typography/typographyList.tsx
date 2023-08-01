@@ -1,3 +1,4 @@
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const TypographyList = ({
@@ -26,7 +27,7 @@ export const TypographyList = ({
         <div className={`${className} `}>
             <ul className="ml-6 list-disc [&>ui]:mt-2">
                 <li
-                    className=' outline-none cursor-text'
+                    className='text-start  outline-none cursor-text'
                     id={id}
                     contentEditable
                     suppressContentEditableWarning={true}
@@ -35,6 +36,9 @@ export const TypographyList = ({
                     }}
                     onInput={(event: any) => {
                         onUpdate(event.target.outerText)
+                    }}
+                    onPaste={(event: any) => {
+                        onPaste({ event, id, onUpdate })
                     }}
                     placeholder="Dot List"
                 />

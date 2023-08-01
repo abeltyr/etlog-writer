@@ -3,6 +3,7 @@
 import { DetailType } from '@/interface/article';
 import React, { useContext, useEffect, useState } from "react";
 import { v4 } from "uuid";
+import { arrowDownKey, arrowLeftKey, arrowRightKey, arrowUpKey, backspaceKey, enterKey } from './keyboardInput';
 
 const initialValues: {
     articleDetail: DetailType[],
@@ -32,9 +33,7 @@ const useWriter = () => useContext(WriterContext);
 
 const WriterProvider: React.FC<Props> = ({ children }) => {
 
-    const [articleDetail, setArticleDetail] = useState<DetailType[]>([
-
-    ])
+    const [articleDetail, setArticleDetail] = useState<DetailType[]>([])
 
 
     useEffect(() => {
@@ -66,61 +65,9 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                 },
                 {
                     id: v4(),
-                    "type": "Bar",
-                    "class": "",
-                    "data": {
-                        "legendPosition": "bottom",
-                        "labels": [
-                            "2021/22 QI",
-                            "2021/22 QIV",
-                            "2022/23 QI"
-                        ],
-                        "datasets": [
-                            {
-                                "label": "Total Domestic Revenue: (In Millions of Birr)",
-                                "backgroundColor": ["#ffb703", "#ffb703", "#ffb703"],
-                                "data": [
-                                    72998.60,
-                                    93388.40,
-                                    97886.40
-                                ]
-                            }
-                        ]
-
-                    }
-                },
-                {
-                    id: v4(),
                     "type": "Small",
                     "class": "flex w-full justify-center text-center",
                     "data": "Total Revenue Growth Percentage"
-                },
-                {
-                    id: v4(),
-                    "type": "Bar",
-                    "class": "",
-                    "data": {
-                        "legendPosition": "bottom",
-                        "labels": [
-                            "Total Domestic Revenue"
-                        ],
-                        "datasets": [
-                            {
-                                "label": "2021/2022 QIV based Growth Percentage Performance",
-                                "backgroundColor": ["#ffb703"],
-                                "data": [
-                                    21.9
-                                ]
-                            },
-                            {
-                                "label": "2021/2022 QI based Growth Percentage Performance",
-                                "backgroundColor": ["#ffb703"],
-                                "data": [
-                                    34.1,
-                                ]
-                            }
-                        ]
-                    }
                 },
                 {
                     id: v4(),
@@ -139,6 +86,7 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
         setArticleDetail(detail);
         localStorage.setItem("article", JSON.stringify(detail));
     }
+
     const updateDetail = ({ index, detail }: { index: number, detail: DetailType }) => {
         let article = [...articleDetail]
         article[index] = detail;
@@ -154,97 +102,32 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
     const keyInputListener = async ({ index, data }: { index: number, data: any }) => {
         let article = [...articleDetail]
         if (data.key === "Enter") {
-            data.preventDefault();
-            const createdValue = {
-                id: v4(),
-                "type": article[index].type,
-                "class": article[index].class,
-                "data": ""
-            };
-            if (index === data.length - 1) {
-                article = [...article, createdValue]
-            }
-            else {
-                article.splice(index + 1, 0, createdValue);
-            }
-            await updateArticle(article);
-            setTimeout(() => {
-                moveCursor({ id: `EditAble-${article[index + 1].id}`, cursorEnd: false })
-            }, 100)
-            return;
+            enterKey({ article, data, index, updateArticle })
+            return
         }
 
-        if (data.key === "Backspace" && article[index].data === "") {
-            data.preventDefault();
-            console.log("here")
-            const articleData = [...article.slice(0, index), ...article.slice(index + 1, data.length,)];
-            updateArticle(articleData);
-            let lengthData = index - 1;
-            if (lengthData < 0) lengthData = 0;
-            moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
-            return;
+        if (data.key === "Backspace") {
+            backspaceKey({ article, data, index, updateArticle })
+            return
         }
 
         if (data.key === "ArrowUp") {
-            const selection = window.getSelection();
-            if (selection) {
-                if (selection.rangeCount === 0) return;
-                const range = selection.getRangeAt(0);
-                const caretPosition = range.startOffset;
-                let lengthData = index - 1;
-                if (caretPosition === 0 && index > 0) {
-                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
-                }
-            }
-            return;
-        }
-
-        if (data.key === "ArrowLeft") {
-            const selection = window.getSelection();
-            if (selection) {
-                if (selection.rangeCount === 0) return;
-                const range = selection.getRangeAt(0);
-                const caretPosition = range.startOffset;
-                let lengthData = index - 1;
-                if (caretPosition === 0 && index > 0) {
-                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: true })
-                }
-            }
+            arrowUpKey({ article, index });
             return;
         }
 
         if (data.key === "ArrowDown") {
+            arrowDownKey({ article, index });
+            return;
+        }
 
-            const selection = window.getSelection();
-            if (selection) {
-                if (selection.rangeCount === 0) return;
-
-                const range = selection.getRangeAt(0);
-                const caretPosition = range.endOffset;
-                const textLength = article[index].data.length;
-                if (caretPosition === textLength) {
-                    let lengthData = index + 1;
-                    if (lengthData >= article.length) lengthData = index;
-                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: false })
-                }
-            }
+        if (data.key === "ArrowLeft") {
+            arrowLeftKey({ article, index });
             return;
         }
 
         if (data.key === "ArrowRight") {
-            const selection = window.getSelection();
-            if (selection) {
-                if (selection.rangeCount === 0) return;
-
-                const range = selection.getRangeAt(0);
-                const caretPosition = range.endOffset;
-                const textLength = article[index].data.length;
-                if (caretPosition === textLength) {
-                    let lengthData = index + 1;
-                    if (lengthData >= article.length) lengthData = index;
-                    moveCursor({ id: `EditAble-${article[lengthData].id}`, cursorEnd: false })
-                }
-            }
+            arrowRightKey({ article, index });
             return;
         }
 
@@ -253,7 +136,7 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
 
     const updateData = async ({ index, data }: { index: number, data: any }) => {
         let article = [...articleDetail]
-        article[index].data = data;
+        article[index].data = `${data}`;
         updateArticle(article)
     }
 
@@ -266,28 +149,6 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
         document.body.appendChild(downloadAnchorNode); // required for firefox
         downloadAnchorNode.click();
         downloadAnchorNode.remove();
-    }
-
-
-
-    const moveCursor = async ({ id, cursorEnd }: { id: string, cursorEnd: boolean }) => {
-        const el: any = document.getElementById(id);
-        if (el) {
-            if (cursorEnd) {
-                setTimeout(() => {
-                    el.focus();
-                    const selection = window.getSelection();
-                    const range = selection!.getRangeAt(0);
-                    range.setEnd(range.endContainer, el.textContent.length);
-                    range.collapse(false);
-                    selection!.addRange(range);
-                }, 100)
-            } else {
-                setTimeout(() => {
-                    el.focus();
-                }, 100)
-            }
-        }
     }
 
 
