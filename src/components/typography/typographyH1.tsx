@@ -1,5 +1,6 @@
 'use client'
 
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const TypographyH1 = ({
@@ -26,7 +27,7 @@ export const TypographyH1 = ({
 
     return (
         <div className={className}>
-            <h1 className={`scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl break-words outline-none cursor-text`}
+            <h1 className={`text-start scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl break-words outline-none cursor-text`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
@@ -35,6 +36,9 @@ export const TypographyH1 = ({
                 }}
                 onInput={(event: any) => {
                     onUpdate(event.target.outerText)
+                }}
+                onPaste={(event: any) => {
+                    onPaste({ event, id, onUpdate })
                 }}
                 placeholder={"Header 1"}
             >

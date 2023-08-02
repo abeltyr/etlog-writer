@@ -1,3 +1,4 @@
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const TypographyMuted = ({
@@ -25,7 +26,7 @@ export const TypographyMuted = ({
 
     return (
         <div className={className}>
-            <p className={`text-sm text-muted-foreground outline-none cursor-text`}
+            <p className={`text-start text-sm text-muted-foreground outline-none cursor-text`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
@@ -34,6 +35,9 @@ export const TypographyMuted = ({
                 }}
                 onInput={(event: any) => {
                     onUpdate(event.target.outerText)
+                }}
+                onPaste={(event: any) => {
+                    onPaste({ event, id, onUpdate })
                 }}
                 placeholder="Muted Text" />
 

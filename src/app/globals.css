@@ -13,7 +13,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 5px;
   z-index: 100;
 }
 

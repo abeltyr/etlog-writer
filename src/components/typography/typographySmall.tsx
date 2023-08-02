@@ -1,3 +1,4 @@
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const TypographySmall = ({
@@ -24,7 +25,7 @@ export const TypographySmall = ({
 
     return (
         <div className={className}>
-            <small className={` text-sm font-medium leading-none outline-none cursor-text`}
+            <small className={`text-start text-sm font-medium leading-none outline-none cursor-text`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
@@ -33,6 +34,9 @@ export const TypographySmall = ({
                 }}
                 onInput={(event: any) => {
                     onUpdate(event.target.outerText)
+                }}
+                onPaste={(event: any) => {
+                    onPaste({ event, id, onUpdate })
                 }}
                 placeholder="Small Text" />
         </div>

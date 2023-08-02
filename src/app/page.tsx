@@ -28,8 +28,8 @@ export default function HomePage() {
   return (
     <main className="bg-base-100 base-content flex flex-col items-center justify-between overflow-x-hidden">
       <div className='max-w-[1440px] min-w-[320px] py-20
-    px-4 xs:px-8 sm:px-10 md:px-24 lg:px-48 xl:px-64 w-screen'>
-        <article className="mx-auto space-y-6 min-h-screen">
+     w-screen'>
+        <article className="mx-auto space-y-6 min-h-screen px-0 xs:px-0 sm:px-2 md:px-16 lg:px-40 xl:px-56">
           <DragDropContext onDragEnd={onDragEnd}>
             <Droppable droppableId={droppableId}>
               {(provided, snapshot) => {
@@ -44,12 +44,12 @@ export default function HomePage() {
                           {...provided.dragHandleProps}
                           {...provided.draggableProps}
                           ref={provided.innerRef}
-                          className='my-2'>
-                          <div className='w-full flex gap-x-2 items-start '>
-                            <div className='mt-1'>
+                          className='my-2 group '>
+                          <div className='w-full flex gap-x-2 items-center h-full relative'>
+                            <div className='h-full absolute  text-neutral-content/0 group-hover:text-neutral-content group-hover:scale-100 scale-90 duration-100 transition-all flex items-center'>
                               <MenuList index={index} />
                             </div>
-                            <div className='flex-1' >
+                            <div className='flex-1 h-full items-center px-8 ' >
                               <ShowComponent articleData={detail} index={index} />
                             </div>
                           </div>
@@ -66,10 +66,10 @@ export default function HomePage() {
           </DragDropContext>
         </article>
       </div>
-      <MoveUp />
+      {/* <MoveUp />
       <MoveDown />
       <UploadBox />
-      <DownloadBox />
+      <DownloadBox /> */}
     </main>
   )
 }

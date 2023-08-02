@@ -1,3 +1,4 @@
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const TypographyP = ({
@@ -25,7 +26,7 @@ export const TypographyP = ({
     return (
         <div className={className}>
 
-            <p className={`leading-7 [&:not(:first-child)]:mt-6 outline-none cursor-text`}
+            <p className={`text-start leading-7 [&:not(:first-child)]:mt-6 outline-none cursor-text`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
@@ -35,7 +36,11 @@ export const TypographyP = ({
                 onInput={(event: any) => {
                     onUpdate(event.target.outerText)
                 }}
-                placeholder="Text" />
+                onPaste={(event: any) => {
+                    onPaste({ event, id, onUpdate })
+                }}
+                placeholder="Text"
+            />
 
         </div>
     )

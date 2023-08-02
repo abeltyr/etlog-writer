@@ -1,3 +1,4 @@
+import { onPaste } from '@/utils/actions'
 import React, { useEffect } from 'react'
 
 export const TypographyH2 = ({
@@ -25,7 +26,7 @@ export const TypographyH2 = ({
 
     return (
         <div className={className}>
-            <h2 className={`scroll-m-20 pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0 outline-none cursor-text`}
+            <h2 className={`text-start scroll-m-20 pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0 outline-none cursor-text`}
                 id={id}
                 contentEditable
                 suppressContentEditableWarning={true}
@@ -34,6 +35,9 @@ export const TypographyH2 = ({
                 }}
                 onInput={(event: any) => {
                     onUpdate(event.target.outerText)
+                }}
+                onPaste={(event: any) => {
+                    onPaste({ event, id, onUpdate })
                 }}
                 placeholder="Header 2"
             />

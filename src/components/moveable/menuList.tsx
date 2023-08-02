@@ -30,9 +30,12 @@ export const MenuList = ({ index }: { index: number }) => {
     return (
         <div>
 
+            {/* <div className='cursor-move  duration-500'>
+                <IndicatorSVG />
+            </div> */}
             <DropdownMenu >
                 <DropdownMenuTrigger asChild>
-                    <div className='cursor-pointer text-neutral-content/50 hover:text-neutral-content duration-500'>
+                    <div className='cursor-pointer  duration-500'>
                         <IndicatorSVG />
                     </div>
                 </DropdownMenuTrigger>
@@ -223,9 +226,6 @@ export const MenuList = ({ index }: { index: number }) => {
                     </DropdownMenuRadioGroup>
                 </DropdownMenuContent>
             </DropdownMenu>
-            <div className='text-neutral-content/10 hover:text-neutral-content active:text-neutral-content duration-500 my-2'>
-                <DraggableSVG />
-            </div>
         </div>
     )
 }
