@@ -74,7 +74,7 @@ export const LabelsInput = (
                 </div>
                 <CollapsibleContent className="space-y-2">
                     <div className='w-full flex flex-wrap mb-2 gap-2 px-2'>
-                        {data?.labels.map((label, index) => {
+                        {data?.labels?.map((label, index) => {
                             return <div key={index} className='flex gap-x-2 items-center flex-1 min-w-[320px] '>
                                 <Input
                                     className='flex-1 bg-transparent border-neutral outline-none focus:outline-none focus:border-neutral-content/90 duration-500'

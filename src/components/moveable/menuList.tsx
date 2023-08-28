@@ -35,7 +35,7 @@ export const MenuList = ({ index }: { index: number }) => {
             </div> */}
             <DropdownMenu >
                 <DropdownMenuTrigger asChild>
-                    <div className='cursor-pointer  duration-500'>
+                    <div className='cursor-pointer hover:text-neutral-content  duration-500'>
                         <IndicatorSVG />
                     </div>
                 </DropdownMenuTrigger>

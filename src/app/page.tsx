@@ -66,10 +66,10 @@ export default function HomePage() {
           </DragDropContext>
         </article>
       </div>
-      {/* <MoveUp />
+      <MoveUp />
       <MoveDown />
       <UploadBox />
-      <DownloadBox /> */}
+      <DownloadBox />
     </main>
   )
 }

@@ -71,6 +71,31 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
                 },
                 {
                     id: v4(),
+                    "type": "Bar",
+                    "class": "",
+                    "data": {
+                        "legendPosition": "bottom",
+                        "labels": [
+                            "2021/22 QI",
+                            "2021/22 QIV",
+                            "2022/23 QI"
+                        ],
+                        "datasets": [
+                            {
+                                "label": "Total Domestic Revenue: (In Millions of Birr)",
+                                "backgroundColor": ["#ffb703", "#ffb703", "#ffb703"],
+                                "data": [
+                                    72998.60,
+                                    93388.40,
+                                    97886.40
+                                ]
+                            }
+                        ]
+
+                    }
+                },
+                {
+                    id: v4(),
                     "type": "BQ",
                     "class": "",
                     "data": "It's important to note that tax rates, thresholds, and regulations may change over time, so individuals and businesses in Ethiopia should stay updated on any amendments to the tax laws. Consulting with a tax professional or contacting the Ethiopian Revenue and Customs Authority (ERCA) can provide the most accurate and up-to-date information regarding taxes in Ethiopia."
@@ -136,7 +161,7 @@ const WriterProvider: React.FC<Props> = ({ children }) => {
 
     const updateData = async ({ index, data }: { index: number, data: any }) => {
         let article = [...articleDetail]
-        article[index].data = `${data}`;
+        article[index].data = data;
         updateArticle(article)
     }
 
